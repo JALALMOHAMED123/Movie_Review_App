@@ -1,0 +1,26 @@
+<div class="card" style="width: 45rem;">
+  <div class="card-body">
+    <h5>List of Comments:</h5>
+    <ul class="list-group list-group-flush" >
+      <% comments.each do |comment| %>
+        <li class="list-group-item" style="column-count: 2;">
+          <%= comment.description %>
+            <div class="text-end">
+              from:&nbsp;<%= comment.user.email %>
+              <% if can? :edit, comment %>
+                <%= link_to 'Edit', edit_movie_comment_path(@movie, comment), remote: true, class: 'btn btn-warning button1' %>
+                <%= link_to 'Destroy', movie_comment_path(@movie, comment), method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger button1' %>
+              <% end %>
+            </div>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
+
+<p></p>
+<style>
+  .button1{
+      font-size: 13px;
+  }
+</style>

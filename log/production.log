@@ -1,0 +1,942 @@
+W, [2023-02-12T15:05:19.562136 #11744]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-02-12T15:05:26.196943 #11744]  INFO -- : Migrating to CreateMovies (20230206103258)
+I, [2023-02-12T15:05:26.512894 #11744]  INFO -- : Migrating to DeviseCreateUsers (20230206104105)
+I, [2023-02-12T15:05:26.701827 #11744]  INFO -- : Migrating to CreateActiveStorageTables (20230206105434)
+I, [2023-02-12T15:05:26.981017 #11744]  INFO -- : Migrating to CreateComments (20230206112309)
+I, [2023-02-12T15:05:27.275468 #11744]  INFO -- : Migrating to CreateRatings (20230206112654)
+I, [2023-02-12T15:05:27.435039 #11744]  INFO -- : Migrating to AddRatingAverageToMovies (20230209124902)
+W, [2023-02-12T15:07:57.909013 #9348]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T15:26:29.468145 #7840]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T15:30:58.497579 #12272]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T15:58:04.830476 #11052]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:01:30.839136 #10780]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:05:30.458954 #12196]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:08:01.255530 #8900]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:13:55.366631 #5924]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:16:43.255858 #10892]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:18:47.067834 #512]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:21:46.454768 #7764]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:23:05.245067 #512]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:26:00.566509 #7328]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-12T16:26:00.566888 #10148]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-02-12T16:29:28.667242 #7328]  INFO -- : [9bf6d81d-854b-43bb-902c-57aaceeadcb5] Started GET "/" for 127.0.0.1 at 2023-02-12 16:29:28 +0530
+I, [2023-02-12T16:29:28.726606 #7328]  INFO -- : [9bf6d81d-854b-43bb-902c-57aaceeadcb5] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:29:28.738654 #7328]  INFO -- : [9bf6d81d-854b-43bb-902c-57aaceeadcb5] Completed 401 Unauthorized in 11ms (Allocations: 544)
+I, [2023-02-12T16:29:29.114730 #7328]  INFO -- : [02a93b79-6c4f-4652-8a43-89ad38b863d2] Started GET "/users/sign_in" for 127.0.0.1 at 2023-02-12 16:29:29 +0530
+I, [2023-02-12T16:29:29.116866 #7328]  INFO -- : [02a93b79-6c4f-4652-8a43-89ad38b863d2] Processing by Users::SessionsController#new as HTML
+I, [2023-02-12T16:29:30.656998 #7328]  INFO -- : [02a93b79-6c4f-4652-8a43-89ad38b863d2]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 272.8ms | Allocations: 3054)
+I, [2023-02-12T16:29:30.811698 #7328]  INFO -- : [02a93b79-6c4f-4652-8a43-89ad38b863d2]   Rendered layout layouts/application.html.erb (Duration: 427.6ms | Allocations: 4835)
+I, [2023-02-12T16:29:30.812379 #7328]  INFO -- : [02a93b79-6c4f-4652-8a43-89ad38b863d2] Completed 200 OK in 1695ms (Views: 673.4ms | ActiveRecord: 8.6ms | Allocations: 13180)
+I, [2023-02-12T16:29:32.024676 #7328]  INFO -- : [d5986174-df0a-4cde-9b0e-c44121e34c4b] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:29:32 +0530
+F, [2023-02-12T16:29:32.026999 #7328] FATAL -- : [d5986174-df0a-4cde-9b0e-c44121e34c4b]   
+[d5986174-df0a-4cde-9b0e-c44121e34c4b] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[d5986174-df0a-4cde-9b0e-c44121e34c4b]   
+I, [2023-02-12T16:29:32.025750 #7328]  INFO -- : [237d750e-9940-4229-bb19-95724eb71d34] Started GET "/assets/application-18babe2a04d8b4912b5db4d123b7230e59979114a5c9a537fc6b7e8e73a7bd79.css" for 127.0.0.1 at 2023-02-12 16:29:32 +0530
+I, [2023-02-12T16:29:32.229817 #7328]  INFO -- : [fc660952-96e2-47ff-9228-5d64498c2660] Started GET "/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js" for 127.0.0.1 at 2023-02-12 16:29:32 +0530
+I, [2023-02-12T16:29:32.439404 #7328]  INFO -- : [b50c48e3-9278-4188-8055-d042a5a5a453] Started GET "/assets/application-71fc7d7a63bb04cca6db61a7b55bc906b07deed6ca479c372e22168e59922b20.js" for 127.0.0.1 at 2023-02-12 16:29:32 +0530
+I, [2023-02-12T16:29:37.804730 #7328]  INFO -- : [c85856de-04a6-4c38-86e4-b334d1a0c382] Started GET "/favicon.ico" for 127.0.0.1 at 2023-02-12 16:29:37 +0530
+F, [2023-02-12T16:29:37.805830 #7328] FATAL -- : [c85856de-04a6-4c38-86e4-b334d1a0c382]   
+[c85856de-04a6-4c38-86e4-b334d1a0c382] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[c85856de-04a6-4c38-86e4-b334d1a0c382]   
+I, [2023-02-12T16:29:45.890354 #7328]  INFO -- : [14171229-ab17-4d32-920a-115078d6428b] Started POST "/users/sign_in" for 127.0.0.1 at 2023-02-12 16:29:45 +0530
+I, [2023-02-12T16:29:45.891833 #7328]  INFO -- : [14171229-ab17-4d32-920a-115078d6428b] Processing by Users::SessionsController#create as HTML
+I, [2023-02-12T16:29:45.892067 #7328]  INFO -- : [14171229-ab17-4d32-920a-115078d6428b]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-02-12T16:29:45.963360 #7328]  INFO -- : [14171229-ab17-4d32-920a-115078d6428b] Completed 401 Unauthorized in 71ms (ActiveRecord: 8.6ms | Allocations: 1550)
+I, [2023-02-12T16:29:45.965439 #7328]  INFO -- : [14171229-ab17-4d32-920a-115078d6428b] Processing by Users::SessionsController#new as HTML
+I, [2023-02-12T16:29:45.965676 #7328]  INFO -- : [14171229-ab17-4d32-920a-115078d6428b]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-02-12T16:29:46.778392 #7328]  INFO -- : [14171229-ab17-4d32-920a-115078d6428b]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1490)
+I, [2023-02-12T16:29:46.780325 #7328]  INFO -- : [14171229-ab17-4d32-920a-115078d6428b]   Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2211)
+I, [2023-02-12T16:29:46.780830 #7328]  INFO -- : [14171229-ab17-4d32-920a-115078d6428b] Completed 200 OK in 815ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 3442)
+I, [2023-02-12T16:29:48.188903 #7328]  INFO -- : [c6660f97-7305-4bc0-bd51-ce5fead8cfbb] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:29:48 +0530
+F, [2023-02-12T16:29:48.189855 #7328] FATAL -- : [c6660f97-7305-4bc0-bd51-ce5fead8cfbb]   
+[c6660f97-7305-4bc0-bd51-ce5fead8cfbb] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[c6660f97-7305-4bc0-bd51-ce5fead8cfbb]   
+I, [2023-02-12T16:29:52.466496 #7328]  INFO -- : [73956784-ca65-4fd8-bb69-8f472b833f38] Started GET "/users/sign_up" for 127.0.0.1 at 2023-02-12 16:29:52 +0530
+I, [2023-02-12T16:29:52.469287 #7328]  INFO -- : [73956784-ca65-4fd8-bb69-8f472b833f38] Processing by Users::RegistrationsController#new as HTML
+I, [2023-02-12T16:29:52.654513 #7328]  INFO -- : [73956784-ca65-4fd8-bb69-8f472b833f38]   Rendered users/registrations/new.html.erb within layouts/application (Duration: 150.1ms | Allocations: 2302)
+I, [2023-02-12T16:29:52.657790 #7328]  INFO -- : [73956784-ca65-4fd8-bb69-8f472b833f38]   Rendered layout layouts/application.html.erb (Duration: 153.3ms | Allocations: 3199)
+I, [2023-02-12T16:29:52.658743 #7328]  INFO -- : [73956784-ca65-4fd8-bb69-8f472b833f38] Completed 200 OK in 189ms (Views: 187.3ms | ActiveRecord: 0.0ms | Allocations: 4452)
+I, [2023-02-12T16:29:52.683193 #7328]  INFO -- : [2e89a554-ce63-4dae-86ff-66aec34e2b6c] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:29:52 +0530
+F, [2023-02-12T16:29:52.684241 #7328] FATAL -- : [2e89a554-ce63-4dae-86ff-66aec34e2b6c]   
+[2e89a554-ce63-4dae-86ff-66aec34e2b6c] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[2e89a554-ce63-4dae-86ff-66aec34e2b6c]   
+I, [2023-02-12T16:30:03.526121 #7328]  INFO -- : [7e949299-aa83-4b89-92d9-601685a16280] Started POST "/users" for 127.0.0.1 at 2023-02-12 16:30:03 +0530
+I, [2023-02-12T16:30:03.527523 #7328]  INFO -- : [7e949299-aa83-4b89-92d9-601685a16280] Processing by Users::RegistrationsController#create as HTML
+I, [2023-02-12T16:30:03.527747 #7328]  INFO -- : [7e949299-aa83-4b89-92d9-601685a16280]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"test@mail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+I, [2023-02-12T16:30:04.096946 #7328]  INFO -- : [7e949299-aa83-4b89-92d9-601685a16280] Redirected to http://localhost:3000/
+I, [2023-02-12T16:30:04.097343 #7328]  INFO -- : [7e949299-aa83-4b89-92d9-601685a16280] Completed 302 Found in 569ms (ActiveRecord: 157.7ms | Allocations: 2930)
+I, [2023-02-12T16:30:04.112078 #7328]  INFO -- : [b3cdabad-f910-40af-9fdf-2384b38470c2] Started GET "/" for 127.0.0.1 at 2023-02-12 16:30:04 +0530
+I, [2023-02-12T16:30:04.113635 #7328]  INFO -- : [b3cdabad-f910-40af-9fdf-2384b38470c2] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:30:04.262013 #7328]  INFO -- : [b3cdabad-f910-40af-9fdf-2384b38470c2]   Rendered movies/index.html.erb within layouts/application (Duration: 129.2ms | Allocations: 1936)
+I, [2023-02-12T16:30:04.279767 #7328]  INFO -- : [b3cdabad-f910-40af-9fdf-2384b38470c2]   Rendered layout layouts/application.html.erb (Duration: 147.0ms | Allocations: 3024)
+I, [2023-02-12T16:30:04.280347 #7328]  INFO -- : [b3cdabad-f910-40af-9fdf-2384b38470c2] Completed 200 OK in 166ms (Views: 155.1ms | ActiveRecord: 2.6ms | Allocations: 4880)
+I, [2023-02-12T16:30:05.365403 #7328]  INFO -- : [378816c6-d7fd-4b59-8ee3-f7f75d729b5f] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:30:05 +0530
+F, [2023-02-12T16:30:05.367455 #7328] FATAL -- : [378816c6-d7fd-4b59-8ee3-f7f75d729b5f]   
+[378816c6-d7fd-4b59-8ee3-f7f75d729b5f] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[378816c6-d7fd-4b59-8ee3-f7f75d729b5f]   
+I, [2023-02-12T16:30:05.366297 #7328]  INFO -- : [347d3b2a-1f9f-4efb-a866-a5c78aabdf8c] Started GET "/assets/index-8d3bd1dff1ef1b66149513a68289f8f1f114e74e9b4b81d5c24ccb799feff31c.css" for 127.0.0.1 at 2023-02-12 16:30:05 +0530
+I, [2023-02-12T16:30:12.386620 #7328]  INFO -- : [80009a39-1d7d-46a6-8761-170fc355a218] Started GET "/movies/new" for 127.0.0.1 at 2023-02-12 16:30:12 +0530
+I, [2023-02-12T16:30:12.393288 #7328]  INFO -- : [80009a39-1d7d-46a6-8761-170fc355a218] Processing by MoviesController#new as HTML
+I, [2023-02-12T16:30:12.594617 #7328]  INFO -- : [80009a39-1d7d-46a6-8761-170fc355a218]   Rendered movies/new.html.erb within layouts/application (Duration: 162.4ms | Allocations: 2095)
+I, [2023-02-12T16:30:12.596943 #7328]  INFO -- : [80009a39-1d7d-46a6-8761-170fc355a218]   Rendered layout layouts/application.html.erb (Duration: 165.0ms | Allocations: 2882)
+I, [2023-02-12T16:30:12.597482 #7328]  INFO -- : [80009a39-1d7d-46a6-8761-170fc355a218] Completed 200 OK in 202ms (Views: 165.9ms | ActiveRecord: 9.2ms | Allocations: 6152)
+I, [2023-02-12T16:30:12.623322 #7328]  INFO -- : [d42b0205-fd6c-4112-ba00-e1a07f1ee76e] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:30:12 +0530
+F, [2023-02-12T16:30:12.625169 #7328] FATAL -- : [d42b0205-fd6c-4112-ba00-e1a07f1ee76e]   
+[d42b0205-fd6c-4112-ba00-e1a07f1ee76e] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[d42b0205-fd6c-4112-ba00-e1a07f1ee76e]   
+I, [2023-02-12T16:30:35.171287 #7328]  INFO -- : [7dca04d9-d771-4387-9126-0a06a6d0a2ad] Started POST "/movies" for 127.0.0.1 at 2023-02-12 16:30:35 +0530
+I, [2023-02-12T16:30:35.172786 #7328]  INFO -- : [7dca04d9-d771-4387-9126-0a06a6d0a2ad] Processing by MoviesController#create as HTML
+I, [2023-02-12T16:30:35.173959 #7328]  INFO -- : [7dca04d9-d771-4387-9126-0a06a6d0a2ad]   Parameters: {"authenticity_token"=>"[FILTERED]", "movie"=>{"name"=>"Varisu", "release_date"=>"2023-02-12", "image"=>#<ActionDispatch::Http::UploadedFile:0x000001ad55061540 @tempfile=#<Tempfile:C:/Users/ELCOT/AppData/Local/Temp/RackMultipart20230212-7328-osdmh5.jpg>, @original_filename="FB_IMG_15316517576724822.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"movie[image]\"; filename=\"FB_IMG_15316517576724822.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Movie"}
+I, [2023-02-12T16:30:35.567704 #7328]  INFO -- : [7dca04d9-d771-4387-9126-0a06a6d0a2ad] [36m  Disk Storage (64.5ms) [0m[32mUploaded file to key: 23ci9djmp5053zvmkcqo8z25jraz (checksum: S6jDu7qQtUXEUAr+F7hLQg==)[0m
+I, [2023-02-12T16:30:35.569568 #7328]  INFO -- : [7dca04d9-d771-4387-9126-0a06a6d0a2ad] [ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: d730057e-5213-4cda-b2d3-87f337dfae40) to Async(default) with arguments: #<GlobalID:0x000001ad55f1bbd0 @uri=#<URI::GID gid://movie-review-app/ActiveStorage::Blob/1>>
+I, [2023-02-12T16:30:35.572048 #7328]  INFO -- : [7dca04d9-d771-4387-9126-0a06a6d0a2ad] Redirected to http://localhost:3000/movies/1
+I, [2023-02-12T16:30:35.573848 #7328]  INFO -- : [7dca04d9-d771-4387-9126-0a06a6d0a2ad] Completed 302 Found in 400ms (ActiveRecord: 148.6ms | Allocations: 13749)
+I, [2023-02-12T16:30:35.589727 #7328]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [d730057e-5213-4cda-b2d3-87f337dfae40] Performing ActiveStorage::AnalyzeJob (Job ID: d730057e-5213-4cda-b2d3-87f337dfae40) from Async(default) enqueued at 2023-02-12T11:00:35Z with arguments: #<GlobalID:0x000001ad55dd7da0 @uri=#<URI::GID gid://movie-review-app/ActiveStorage::Blob/1>>
+I, [2023-02-12T16:30:35.647453 #7328]  INFO -- : [42ed9766-4467-4cae-98f3-421a33340bf9] Started GET "/movies/1" for 127.0.0.1 at 2023-02-12 16:30:35 +0530
+I, [2023-02-12T16:30:35.651575 #7328]  INFO -- : [42ed9766-4467-4cae-98f3-421a33340bf9] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:30:35.651892 #7328]  INFO -- : [42ed9766-4467-4cae-98f3-421a33340bf9]   Parameters: {"id"=>"1"}
+I, [2023-02-12T16:30:41.609243 #7328]  INFO -- : [42ed9766-4467-4cae-98f3-421a33340bf9]   Rendered movies/show.html.erb within layouts/application (Duration: 5935.4ms | Allocations: 14834)
+I, [2023-02-12T16:30:41.668690 #7328]  INFO -- : [42ed9766-4467-4cae-98f3-421a33340bf9]   Rendered layout layouts/application.html.erb (Duration: 5995.1ms | Allocations: 17232)
+I, [2023-02-12T16:30:41.728475 #7328]  INFO -- : [42ed9766-4467-4cae-98f3-421a33340bf9] Completed 200 OK in 6076ms (Views: 6051.7ms | ActiveRecord: 6.7ms | Allocations: 22799)
+I, [2023-02-12T16:30:42.710889 #7328]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [d730057e-5213-4cda-b2d3-87f337dfae40] [36m  Disk Storage (4.7ms) [0m[34mDownloaded file from key: 23ci9djmp5053zvmkcqo8z25jraz[0m
+I, [2023-02-12T16:30:43.312528 #7328]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [d730057e-5213-4cda-b2d3-87f337dfae40] Performed ActiveStorage::AnalyzeJob (Job ID: d730057e-5213-4cda-b2d3-87f337dfae40) from Async(default) in 7739.7ms
+I, [2023-02-12T16:30:43.313927 #7328]  INFO -- : [03848994-e4f1-466f-bbdd-9c71a3940b0d] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ba7e70c7d794df1bc8c6dc54513d14780ecf3153/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:30:43 +0530
+I, [2023-02-12T16:30:43.316965 #7328]  INFO -- : [03848994-e4f1-466f-bbdd-9c71a3940b0d] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-02-12T16:30:43.317395 #7328]  INFO -- : [03848994-e4f1-466f-bbdd-9c71a3940b0d]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ba7e70c7d794df1bc8c6dc54513d14780ecf3153", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:30:43.326298 #7328]  INFO -- : [03848994-e4f1-466f-bbdd-9c71a3940b0d] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg
+I, [2023-02-12T16:30:43.326777 #7328]  INFO -- : [03848994-e4f1-466f-bbdd-9c71a3940b0d] Completed 302 Found in 9ms (ActiveRecord: 1.4ms | Allocations: 1281)
+I, [2023-02-12T16:30:43.314665 #7328]  INFO -- : [e5fabbf5-00bb-4031-b97f-f0609b857e76] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:30:43 +0530
+F, [2023-02-12T16:30:43.330028 #7328] FATAL -- : [e5fabbf5-00bb-4031-b97f-f0609b857e76]   
+[e5fabbf5-00bb-4031-b97f-f0609b857e76] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[e5fabbf5-00bb-4031-b97f-f0609b857e76]   
+I, [2023-02-12T16:30:43.442476 #7328]  INFO -- : [8ce4be5d-559d-487d-8b08-5367c0093c17] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:30:43 +0530
+I, [2023-02-12T16:30:43.463423 #7328]  INFO -- : [8ce4be5d-559d-487d-8b08-5367c0093c17] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:30:43.489325 #7328]  INFO -- : [8ce4be5d-559d-487d-8b08-5367c0093c17]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:30:43.792636 #7328]  INFO -- : [b5e3a064-2afa-4003-ac6f-8cf8d902dc77] Started GET "/assets/fonts/bootstrap-icons-80a85af21a77b44049843c9ab389aa7d3ae2fb8664762a3083d929f1ed4ba431.woff2?24e3eb84d0bcaf83d77f904c78ac1f47" for 127.0.0.1 at 2023-02-12 16:30:43 +0530
+I, [2023-02-12T16:30:43.920217 #7328]  INFO -- : [8ce4be5d-559d-487d-8b08-5367c0093c17] Completed 200 OK in 431ms (ActiveRecord: 0.0ms | Allocations: 3324)
+I, [2023-02-12T16:31:20.441928 #7328]  INFO -- : [1ea3ed68-209c-442c-bfd0-580300be84df] Started POST "/movies/1/comments" for 127.0.0.1 at 2023-02-12 16:31:20 +0530
+I, [2023-02-12T16:31:20.443524 #7328]  INFO -- : [1ea3ed68-209c-442c-bfd0-580300be84df] Processing by CommentsController#create as JS
+I, [2023-02-12T16:31:20.443753 #7328]  INFO -- : [1ea3ed68-209c-442c-bfd0-580300be84df]   Parameters: {"authenticity_token"=>"[FILTERED]", "comment"=>{"description"=>"Family drama movie"}, "commit"=>"Submit", "movie_id"=>"1"}
+I, [2023-02-12T16:31:20.694701 #7328]  INFO -- : [1ea3ed68-209c-442c-bfd0-580300be84df]   Rendered comments/create.js.erb (Duration: 75.4ms | Allocations: 2783)
+I, [2023-02-12T16:31:20.695280 #7328]  INFO -- : [1ea3ed68-209c-442c-bfd0-580300be84df] Completed 200 OK in 251ms (Views: 97.3ms | ActiveRecord: 133.1ms | Allocations: 6593)
+I, [2023-02-12T16:31:27.873671 #7328]  INFO -- : [a8f60b73-7b5a-47aa-90ee-e4fcad8f7909] Started POST "/movies/1/comments" for 127.0.0.1 at 2023-02-12 16:31:27 +0530
+I, [2023-02-12T16:31:27.878960 #7328]  INFO -- : [a8f60b73-7b5a-47aa-90ee-e4fcad8f7909] Processing by CommentsController#create as JS
+I, [2023-02-12T16:31:27.879246 #7328]  INFO -- : [a8f60b73-7b5a-47aa-90ee-e4fcad8f7909]   Parameters: {"authenticity_token"=>"[FILTERED]", "comment"=>{"description"=>"dghd"}, "commit"=>"Submit", "movie_id"=>"1"}
+I, [2023-02-12T16:31:28.281400 #7328]  INFO -- : [a8f60b73-7b5a-47aa-90ee-e4fcad8f7909]   Rendered comments/create.js.erb (Duration: 12.6ms | Allocations: 1949)
+I, [2023-02-12T16:31:28.281884 #7328]  INFO -- : [a8f60b73-7b5a-47aa-90ee-e4fcad8f7909] Completed 200 OK in 402ms (Views: 10.5ms | ActiveRecord: 382.8ms | Allocations: 3991)
+I, [2023-02-12T16:31:32.163294 #7328]  INFO -- : [8f0ec9ee-48f2-46e3-8c9c-5b6d77a023ee] Started GET "/movies/1/comments/2/edit" for 127.0.0.1 at 2023-02-12 16:31:32 +0530
+I, [2023-02-12T16:31:32.164631 #7328]  INFO -- : [8f0ec9ee-48f2-46e3-8c9c-5b6d77a023ee] Processing by CommentsController#edit as JS
+I, [2023-02-12T16:31:32.164843 #7328]  INFO -- : [8f0ec9ee-48f2-46e3-8c9c-5b6d77a023ee]   Parameters: {"movie_id"=>"1", "id"=>"2"}
+I, [2023-02-12T16:31:32.204882 #7328]  INFO -- : [8f0ec9ee-48f2-46e3-8c9c-5b6d77a023ee]   Rendered comments/edit.js.erb (Duration: 21.5ms | Allocations: 977)
+I, [2023-02-12T16:31:32.205378 #7328]  INFO -- : [8f0ec9ee-48f2-46e3-8c9c-5b6d77a023ee] Completed 200 OK in 40ms (Views: 22.4ms | ActiveRecord: 2.0ms | Allocations: 2946)
+I, [2023-02-12T16:31:33.839170 #7328]  INFO -- : [b9127aaa-d834-4878-821f-d81bbc9bdbbf] Started PATCH "/movies/1/comments/2" for 127.0.0.1 at 2023-02-12 16:31:33 +0530
+I, [2023-02-12T16:31:33.841611 #7328]  INFO -- : [b9127aaa-d834-4878-821f-d81bbc9bdbbf] Processing by CommentsController#update as JS
+I, [2023-02-12T16:31:33.842175 #7328]  INFO -- : [b9127aaa-d834-4878-821f-d81bbc9bdbbf]   Parameters: {"authenticity_token"=>"[FILTERED]", "comment"=>{"description"=>"dghdefe"}, "commit"=>"Submit", "movie_id"=>"1", "id"=>"2"}
+I, [2023-02-12T16:31:34.119538 #7328]  INFO -- : [b9127aaa-d834-4878-821f-d81bbc9bdbbf]   Rendered comments/update.js.erb (Duration: 55.2ms | Allocations: 2194)
+I, [2023-02-12T16:31:34.120255 #7328]  INFO -- : [b9127aaa-d834-4878-821f-d81bbc9bdbbf] Completed 200 OK in 278ms (Views: 55.1ms | ActiveRecord: 205.0ms | Allocations: 4460)
+I, [2023-02-12T16:31:36.871200 #7328]  INFO -- : [7d95412a-2d76-4099-ae89-c4369bb0733b] Started DELETE "/movies/1/comments/2" for 127.0.0.1 at 2023-02-12 16:31:36 +0530
+I, [2023-02-12T16:31:36.874396 #7328]  INFO -- : [7d95412a-2d76-4099-ae89-c4369bb0733b] Processing by CommentsController#destroy as HTML
+I, [2023-02-12T16:31:36.874758 #7328]  INFO -- : [7d95412a-2d76-4099-ae89-c4369bb0733b]   Parameters: {"authenticity_token"=>"[FILTERED]", "movie_id"=>"1", "id"=>"2"}
+I, [2023-02-12T16:31:37.080835 #7328]  INFO -- : [7d95412a-2d76-4099-ae89-c4369bb0733b] Redirected to http://localhost:3000/movies/1
+I, [2023-02-12T16:31:37.085375 #7328]  INFO -- : [7d95412a-2d76-4099-ae89-c4369bb0733b] Completed 302 Found in 210ms (ActiveRecord: 174.2ms | Allocations: 1650)
+I, [2023-02-12T16:31:37.122232 #7328]  INFO -- : [0b957a78-d568-4420-b6a3-ce66f0b2f61a] Started GET "/movies/1" for 127.0.0.1 at 2023-02-12 16:31:37 +0530
+I, [2023-02-12T16:31:37.123635 #7328]  INFO -- : [0b957a78-d568-4420-b6a3-ce66f0b2f61a] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:31:37.123890 #7328]  INFO -- : [0b957a78-d568-4420-b6a3-ce66f0b2f61a]   Parameters: {"id"=>"1"}
+I, [2023-02-12T16:31:37.165724 #7328]  INFO -- : [0b957a78-d568-4420-b6a3-ce66f0b2f61a]   Rendered movies/show.html.erb within layouts/application (Duration: 27.7ms | Allocations: 3990)
+I, [2023-02-12T16:31:37.168165 #7328]  INFO -- : [0b957a78-d568-4420-b6a3-ce66f0b2f61a]   Rendered layout layouts/application.html.erb (Duration: 30.1ms | Allocations: 4802)
+I, [2023-02-12T16:31:37.171463 #7328]  INFO -- : [0b957a78-d568-4420-b6a3-ce66f0b2f61a] Completed 200 OK in 47ms (Views: 32.8ms | ActiveRecord: 2.9ms | Allocations: 5988)
+I, [2023-02-12T16:31:38.340142 #7328]  INFO -- : [8d345f04-a790-4b5b-97ce-bf5235a80197] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:31:38 +0530
+F, [2023-02-12T16:31:38.342480 #7328] FATAL -- : [8d345f04-a790-4b5b-97ce-bf5235a80197]   
+[8d345f04-a790-4b5b-97ce-bf5235a80197] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[8d345f04-a790-4b5b-97ce-bf5235a80197]   
+I, [2023-02-12T16:31:38.341570 #7328]  INFO -- : [0e11a523-3e05-4c84-b1fa-e4a8102cd3c2] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:31:38 +0530
+I, [2023-02-12T16:31:38.348181 #7328]  INFO -- : [0e11a523-3e05-4c84-b1fa-e4a8102cd3c2] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:31:38.348459 #7328]  INFO -- : [0e11a523-3e05-4c84-b1fa-e4a8102cd3c2]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:31:38.350308 #7328]  INFO -- : [0e11a523-3e05-4c84-b1fa-e4a8102cd3c2] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 366)
+I, [2023-02-12T16:31:43.820642 #7328]  INFO -- : [e010c8a6-ec51-463f-804b-1e5b265b05e4] Started POST "/movies/1/ratings" for 127.0.0.1 at 2023-02-12 16:31:43 +0530
+I, [2023-02-12T16:31:43.822036 #7328]  INFO -- : [e010c8a6-ec51-463f-804b-1e5b265b05e4] Processing by RatingsController#create as HTML
+I, [2023-02-12T16:31:43.822271 #7328]  INFO -- : [e010c8a6-ec51-463f-804b-1e5b265b05e4]   Parameters: {"authenticity_token"=>"[FILTERED]", "rating"=>{"movie_id"=>"1", "star"=>"4"}, "commit"=>"Add", "movie_id"=>"1"}
+I, [2023-02-12T16:31:44.020437 #7328]  INFO -- : [e010c8a6-ec51-463f-804b-1e5b265b05e4] Redirected to http://localhost:3000/movies/1
+I, [2023-02-12T16:31:44.020993 #7328]  INFO -- : [e010c8a6-ec51-463f-804b-1e5b265b05e4] Completed 302 Found in 199ms (ActiveRecord: 146.7ms | Allocations: 2513)
+I, [2023-02-12T16:31:44.035161 #7328]  INFO -- : [c7fd2bf6-20fb-42f8-bdb7-5ce9c9ff6cac] Started GET "/movies/1" for 127.0.0.1 at 2023-02-12 16:31:44 +0530
+I, [2023-02-12T16:31:44.036267 #7328]  INFO -- : [c7fd2bf6-20fb-42f8-bdb7-5ce9c9ff6cac] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:31:44.036471 #7328]  INFO -- : [c7fd2bf6-20fb-42f8-bdb7-5ce9c9ff6cac]   Parameters: {"id"=>"1"}
+I, [2023-02-12T16:31:44.065136 #7328]  INFO -- : [c7fd2bf6-20fb-42f8-bdb7-5ce9c9ff6cac]   Rendered movies/show.html.erb within layouts/application (Duration: 17.6ms | Allocations: 3717)
+I, [2023-02-12T16:31:44.068796 #7328]  INFO -- : [c7fd2bf6-20fb-42f8-bdb7-5ce9c9ff6cac]   Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 4517)
+I, [2023-02-12T16:31:44.069314 #7328]  INFO -- : [c7fd2bf6-20fb-42f8-bdb7-5ce9c9ff6cac] Completed 200 OK in 33ms (Views: 20.3ms | ActiveRecord: 5.5ms | Allocations: 5713)
+I, [2023-02-12T16:31:45.256767 #7328]  INFO -- : [ee6e8f40-e657-4240-b4dd-8ebb90111108] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:31:45 +0530
+F, [2023-02-12T16:31:45.372858 #7328] FATAL -- : [ee6e8f40-e657-4240-b4dd-8ebb90111108]   
+[ee6e8f40-e657-4240-b4dd-8ebb90111108] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[ee6e8f40-e657-4240-b4dd-8ebb90111108]   
+I, [2023-02-12T16:31:45.375867 #7328]  INFO -- : [cff3bf5e-7871-48b6-9432-867103852b51] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:31:45 +0530
+I, [2023-02-12T16:31:45.509922 #7328]  INFO -- : [cff3bf5e-7871-48b6-9432-867103852b51] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:31:45.510186 #7328]  INFO -- : [cff3bf5e-7871-48b6-9432-867103852b51]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:31:45.512328 #7328]  INFO -- : [cff3bf5e-7871-48b6-9432-867103852b51] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 337)
+I, [2023-02-12T16:31:49.191246 #7328]  INFO -- : [e3ccad7f-faea-4ae3-b1c2-3e778ce8640f] Started GET "/movies" for 127.0.0.1 at 2023-02-12 16:31:49 +0530
+I, [2023-02-12T16:31:49.192777 #7328]  INFO -- : [e3ccad7f-faea-4ae3-b1c2-3e778ce8640f] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:31:49.225589 #7328]  INFO -- : [e3ccad7f-faea-4ae3-b1c2-3e778ce8640f]   Rendered movies/index.html.erb within layouts/application (Duration: 19.6ms | Allocations: 1816)
+I, [2023-02-12T16:31:49.229196 #7328]  INFO -- : [e3ccad7f-faea-4ae3-b1c2-3e778ce8640f]   Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 2592)
+I, [2023-02-12T16:31:49.229800 #7328]  INFO -- : [e3ccad7f-faea-4ae3-b1c2-3e778ce8640f] Completed 200 OK in 37ms (Views: 23.9ms | ActiveRecord: 1.9ms | Allocations: 3277)
+I, [2023-02-12T16:31:49.264046 #7328]  INFO -- : [6e3b329d-fdc8-4562-b544-9fec134b8cc4] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:31:49 +0530
+F, [2023-02-12T16:31:49.267377 #7328] FATAL -- : [6e3b329d-fdc8-4562-b544-9fec134b8cc4]   
+[6e3b329d-fdc8-4562-b544-9fec134b8cc4] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[6e3b329d-fdc8-4562-b544-9fec134b8cc4]   
+I, [2023-02-12T16:31:55.246546 #7328]  INFO -- : [73230408-a1ae-4ba5-8c23-0cb1de687d23] Started GET "/movies/new" for 127.0.0.1 at 2023-02-12 16:31:55 +0530
+I, [2023-02-12T16:31:55.247760 #7328]  INFO -- : [73230408-a1ae-4ba5-8c23-0cb1de687d23] Processing by MoviesController#new as HTML
+I, [2023-02-12T16:31:55.262329 #7328]  INFO -- : [73230408-a1ae-4ba5-8c23-0cb1de687d23]   Rendered movies/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1273)
+I, [2023-02-12T16:31:55.264339 #7328]  INFO -- : [73230408-a1ae-4ba5-8c23-0cb1de687d23]   Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 2059)
+I, [2023-02-12T16:31:55.264954 #7328]  INFO -- : [73230408-a1ae-4ba5-8c23-0cb1de687d23] Completed 200 OK in 17ms (Views: 10.2ms | ActiveRecord: 2.5ms | Allocations: 2649)
+I, [2023-02-12T16:32:25.171028 #7328]  INFO -- : [8c63e2b0-8d68-46a8-8329-e1c9e5056615] Started POST "/movies" for 127.0.0.1 at 2023-02-12 16:32:25 +0530
+I, [2023-02-12T16:32:25.172406 #7328]  INFO -- : [8c63e2b0-8d68-46a8-8329-e1c9e5056615] Processing by MoviesController#create as HTML
+I, [2023-02-12T16:32:25.172687 #7328]  INFO -- : [8c63e2b0-8d68-46a8-8329-e1c9e5056615]   Parameters: {"authenticity_token"=>"[FILTERED]", "movie"=>{"name"=>"Bigil", "release_date"=>"2023-02-13", "image"=>#<ActionDispatch::Http::UploadedFile:0x000001ad57c33768 @tempfile=#<Tempfile:C:/Users/ELCOT/AppData/Local/Temp/RackMultipart20230212-7328-h9g2x1.jpg>, @original_filename="FB_IMG_15317454381951734.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"movie[image]\"; filename=\"FB_IMG_15317454381951734.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Movie"}
+I, [2023-02-12T16:32:25.338181 #7328]  INFO -- : [8c63e2b0-8d68-46a8-8329-e1c9e5056615] [36m  Disk Storage (19.3ms) [0m[32mUploaded file to key: 30v2hm42edwd0kvmdmxgxku0qrlb (checksum: ExyfXWVd/pa8RiLe6Ju41A==)[0m
+I, [2023-02-12T16:32:25.339366 #7328]  INFO -- : [8c63e2b0-8d68-46a8-8329-e1c9e5056615] [ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 1176430e-a3c5-4126-8ca8-e198971d11c3) to Async(default) with arguments: #<GlobalID:0x000001ad5e8a4320 @uri=#<URI::GID gid://movie-review-app/ActiveStorage::Blob/2>>
+I, [2023-02-12T16:32:25.342560 #7328]  INFO -- : [8c63e2b0-8d68-46a8-8329-e1c9e5056615] Redirected to http://localhost:3000/movies/2
+I, [2023-02-12T16:32:25.342925 #7328]  INFO -- : [8c63e2b0-8d68-46a8-8329-e1c9e5056615] Completed 302 Found in 170ms (ActiveRecord: 114.3ms | Allocations: 3162)
+I, [2023-02-12T16:32:25.341621 #7328]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [1176430e-a3c5-4126-8ca8-e198971d11c3] Performing ActiveStorage::AnalyzeJob (Job ID: 1176430e-a3c5-4126-8ca8-e198971d11c3) from Async(default) enqueued at 2023-02-12T11:02:25Z with arguments: #<GlobalID:0x000001ad5e8acdb8 @uri=#<URI::GID gid://movie-review-app/ActiveStorage::Blob/2>>
+I, [2023-02-12T16:32:25.354980 #7328]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [1176430e-a3c5-4126-8ca8-e198971d11c3] [36m  Disk Storage (8.1ms) [0m[34mDownloaded file from key: 30v2hm42edwd0kvmdmxgxku0qrlb[0m
+I, [2023-02-12T16:32:25.365764 #7328]  INFO -- : [99ab3409-470c-4611-bef9-0ddfb4e93837] Started GET "/movies/2" for 127.0.0.1 at 2023-02-12 16:32:25 +0530
+I, [2023-02-12T16:32:25.368512 #7328]  INFO -- : [99ab3409-470c-4611-bef9-0ddfb4e93837] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:32:25.368912 #7328]  INFO -- : [99ab3409-470c-4611-bef9-0ddfb4e93837]   Parameters: {"id"=>"2"}
+I, [2023-02-12T16:32:25.391549 #7328]  INFO -- : [99ab3409-470c-4611-bef9-0ddfb4e93837]   Rendered movies/show.html.erb within layouts/application (Duration: 15.4ms | Allocations: 3160)
+I, [2023-02-12T16:32:25.393763 #7328]  INFO -- : [99ab3409-470c-4611-bef9-0ddfb4e93837]   Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 3970)
+I, [2023-02-12T16:32:25.394585 #7328]  INFO -- : [99ab3409-470c-4611-bef9-0ddfb4e93837] Completed 200 OK in 25ms (Views: 17.7ms | ActiveRecord: 2.1ms | Allocations: 5142)
+I, [2023-02-12T16:32:25.903616 #7328]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [1176430e-a3c5-4126-8ca8-e198971d11c3] Performed ActiveStorage::AnalyzeJob (Job ID: 1176430e-a3c5-4126-8ca8-e198971d11c3) from Async(default) in 563.7ms
+I, [2023-02-12T16:32:26.622951 #7328]  INFO -- : [66630642-0558-44fd-9e16-9525468e646b] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:32:26 +0530
+F, [2023-02-12T16:32:26.623797 #7328] FATAL -- : [66630642-0558-44fd-9e16-9525468e646b]   
+[66630642-0558-44fd-9e16-9525468e646b] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[66630642-0558-44fd-9e16-9525468e646b]   
+I, [2023-02-12T16:32:26.624552 #7328]  INFO -- : [7dfa7b55-f01e-4442-80bc-b74c5ea3bb23] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c6726cf26182cdc0cdc28a70e8fec77f79775b11/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:32:26 +0530
+I, [2023-02-12T16:32:26.629656 #7328]  INFO -- : [7dfa7b55-f01e-4442-80bc-b74c5ea3bb23] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-02-12T16:32:26.630213 #7328]  INFO -- : [7dfa7b55-f01e-4442-80bc-b74c5ea3bb23]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c6726cf26182cdc0cdc28a70e8fec77f79775b11", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:32:26.636349 #7328]  INFO -- : [7dfa7b55-f01e-4442-80bc-b74c5ea3bb23] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg
+I, [2023-02-12T16:32:26.637742 #7328]  INFO -- : [7dfa7b55-f01e-4442-80bc-b74c5ea3bb23] Completed 302 Found in 7ms (ActiveRecord: 0.3ms | Allocations: 773)
+I, [2023-02-12T16:32:26.793958 #7328]  INFO -- : [cac091e3-35a1-4768-a370-61faf3f58241] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:32:26 +0530
+I, [2023-02-12T16:32:26.795527 #7328]  INFO -- : [cac091e3-35a1-4768-a370-61faf3f58241] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:32:26.795754 #7328]  INFO -- : [cac091e3-35a1-4768-a370-61faf3f58241]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:32:26.799622 #7328]  INFO -- : [cac091e3-35a1-4768-a370-61faf3f58241] Completed 200 OK in 4ms (ActiveRecord: 0.0ms | Allocations: 348)
+I, [2023-02-12T16:32:34.172977 #7328]  INFO -- : [9d0fd0ea-c5fb-47e6-b2af-d90e9306c0eb] Started POST "/movies/2/ratings" for 127.0.0.1 at 2023-02-12 16:32:34 +0530
+I, [2023-02-12T16:32:34.174890 #7328]  INFO -- : [9d0fd0ea-c5fb-47e6-b2af-d90e9306c0eb] Processing by RatingsController#create as HTML
+I, [2023-02-12T16:32:34.175317 #7328]  INFO -- : [9d0fd0ea-c5fb-47e6-b2af-d90e9306c0eb]   Parameters: {"authenticity_token"=>"[FILTERED]", "rating"=>{"movie_id"=>"2", "star"=>"3"}, "commit"=>"Add", "movie_id"=>"2"}
+I, [2023-02-12T16:32:34.323103 #7328]  INFO -- : [9d0fd0ea-c5fb-47e6-b2af-d90e9306c0eb] Redirected to http://localhost:3000/movies/2
+I, [2023-02-12T16:32:34.327149 #7328]  INFO -- : [9d0fd0ea-c5fb-47e6-b2af-d90e9306c0eb] Completed 302 Found in 151ms (ActiveRecord: 122.0ms | Allocations: 2075)
+I, [2023-02-12T16:32:34.356011 #7328]  INFO -- : [fa22746d-6757-42ec-993f-bfffd2a7e7d6] Started GET "/movies/2" for 127.0.0.1 at 2023-02-12 16:32:34 +0530
+I, [2023-02-12T16:32:34.357234 #7328]  INFO -- : [fa22746d-6757-42ec-993f-bfffd2a7e7d6] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:32:34.357445 #7328]  INFO -- : [fa22746d-6757-42ec-993f-bfffd2a7e7d6]   Parameters: {"id"=>"2"}
+I, [2023-02-12T16:32:34.383508 #7328]  INFO -- : [fa22746d-6757-42ec-993f-bfffd2a7e7d6]   Rendered movies/show.html.erb within layouts/application (Duration: 18.5ms | Allocations: 3159)
+I, [2023-02-12T16:32:34.388401 #7328]  INFO -- : [fa22746d-6757-42ec-993f-bfffd2a7e7d6]   Rendered layout layouts/application.html.erb (Duration: 23.5ms | Allocations: 3968)
+I, [2023-02-12T16:32:34.388945 #7328]  INFO -- : [fa22746d-6757-42ec-993f-bfffd2a7e7d6] Completed 200 OK in 31ms (Views: 23.2ms | ActiveRecord: 2.1ms | Allocations: 5145)
+I, [2023-02-12T16:32:35.599082 #7328]  INFO -- : [b82026f9-6c44-48bb-9c56-55a45d455499] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:32:35 +0530
+F, [2023-02-12T16:32:35.600150 #7328] FATAL -- : [b82026f9-6c44-48bb-9c56-55a45d455499]   
+[b82026f9-6c44-48bb-9c56-55a45d455499] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[b82026f9-6c44-48bb-9c56-55a45d455499]   
+I, [2023-02-12T16:32:35.600909 #7328]  INFO -- : [294b35e6-f806-406c-8f18-0108f74a3546] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:32:35 +0530
+I, [2023-02-12T16:32:35.608426 #7328]  INFO -- : [294b35e6-f806-406c-8f18-0108f74a3546] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:32:35.608754 #7328]  INFO -- : [294b35e6-f806-406c-8f18-0108f74a3546]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:32:35.610749 #7328]  INFO -- : [294b35e6-f806-406c-8f18-0108f74a3546] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 341)
+I, [2023-02-12T16:32:56.983271 #7328]  INFO -- : [bb3287cb-84f2-42ff-8869-3cf8ba1023fd] Started POST "/movies/2/ratings" for 127.0.0.1 at 2023-02-12 16:32:56 +0530
+I, [2023-02-12T16:32:56.984706 #7328]  INFO -- : [bb3287cb-84f2-42ff-8869-3cf8ba1023fd] Processing by RatingsController#create as HTML
+I, [2023-02-12T16:32:56.984943 #7328]  INFO -- : [bb3287cb-84f2-42ff-8869-3cf8ba1023fd]   Parameters: {"authenticity_token"=>"[FILTERED]", "rating"=>{"movie_id"=>"2", "star"=>"5"}, "commit"=>"Add", "movie_id"=>"2"}
+I, [2023-02-12T16:32:57.120348 #7328]  INFO -- : [bb3287cb-84f2-42ff-8869-3cf8ba1023fd] Redirected to http://localhost:3000/movies/2
+I, [2023-02-12T16:32:57.121494 #7328]  INFO -- : [bb3287cb-84f2-42ff-8869-3cf8ba1023fd] Completed 302 Found in 136ms (ActiveRecord: 117.2ms | Allocations: 2109)
+I, [2023-02-12T16:32:57.136072 #7328]  INFO -- : [d47504ec-a8ae-4e7c-90be-0c877f7635a1] Started GET "/movies/2" for 127.0.0.1 at 2023-02-12 16:32:57 +0530
+I, [2023-02-12T16:32:57.137430 #7328]  INFO -- : [d47504ec-a8ae-4e7c-90be-0c877f7635a1] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:32:57.137701 #7328]  INFO -- : [d47504ec-a8ae-4e7c-90be-0c877f7635a1]   Parameters: {"id"=>"2"}
+I, [2023-02-12T16:32:57.159580 #7328]  INFO -- : [d47504ec-a8ae-4e7c-90be-0c877f7635a1]   Rendered movies/show.html.erb within layouts/application (Duration: 15.2ms | Allocations: 3158)
+I, [2023-02-12T16:32:57.163498 #7328]  INFO -- : [d47504ec-a8ae-4e7c-90be-0c877f7635a1]   Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 3967)
+I, [2023-02-12T16:32:57.164013 #7328]  INFO -- : [d47504ec-a8ae-4e7c-90be-0c877f7635a1] Completed 200 OK in 26ms (Views: 18.9ms | ActiveRecord: 2.2ms | Allocations: 5149)
+I, [2023-02-12T16:32:58.224970 #7328]  INFO -- : [2792f6d1-be49-4121-b6f2-218bf389fd07] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:32:58 +0530
+F, [2023-02-12T16:32:58.227736 #7328] FATAL -- : [2792f6d1-be49-4121-b6f2-218bf389fd07]   
+[2792f6d1-be49-4121-b6f2-218bf389fd07] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[2792f6d1-be49-4121-b6f2-218bf389fd07]   
+I, [2023-02-12T16:32:58.515492 #7328]  INFO -- : [57ca8260-6a7a-4065-9f9b-1c46c5c9b4f1] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:32:58 +0530
+I, [2023-02-12T16:32:58.517389 #7328]  INFO -- : [57ca8260-6a7a-4065-9f9b-1c46c5c9b4f1] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:32:58.518357 #7328]  INFO -- : [57ca8260-6a7a-4065-9f9b-1c46c5c9b4f1]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:32:58.520306 #7328]  INFO -- : [57ca8260-6a7a-4065-9f9b-1c46c5c9b4f1] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 326)
+I, [2023-02-12T16:33:26.499670 #7328]  INFO -- : [65606609-7b3e-4d44-a33a-bfd0f6653f62] Started POST "/movies/2/ratings" for 127.0.0.1 at 2023-02-12 16:33:26 +0530
+I, [2023-02-12T16:33:26.501349 #7328]  INFO -- : [65606609-7b3e-4d44-a33a-bfd0f6653f62] Processing by RatingsController#create as HTML
+I, [2023-02-12T16:33:26.501600 #7328]  INFO -- : [65606609-7b3e-4d44-a33a-bfd0f6653f62]   Parameters: {"authenticity_token"=>"[FILTERED]", "rating"=>{"movie_id"=>"2", "star"=>"5"}, "commit"=>"Add", "movie_id"=>"2"}
+I, [2023-02-12T16:33:26.707402 #7328]  INFO -- : [65606609-7b3e-4d44-a33a-bfd0f6653f62] Redirected to http://localhost:3000/movies/2
+I, [2023-02-12T16:33:26.711304 #7328]  INFO -- : [65606609-7b3e-4d44-a33a-bfd0f6653f62] Completed 302 Found in 209ms (ActiveRecord: 180.0ms | Allocations: 2031)
+I, [2023-02-12T16:33:26.729030 #7328]  INFO -- : [770ecf08-9712-42f2-80a0-7cff65a26356] Started GET "/movies/2" for 127.0.0.1 at 2023-02-12 16:33:26 +0530
+I, [2023-02-12T16:33:26.730250 #7328]  INFO -- : [770ecf08-9712-42f2-80a0-7cff65a26356] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:33:26.730466 #7328]  INFO -- : [770ecf08-9712-42f2-80a0-7cff65a26356]   Parameters: {"id"=>"2"}
+I, [2023-02-12T16:33:26.753748 #7328]  INFO -- : [770ecf08-9712-42f2-80a0-7cff65a26356]   Rendered movies/show.html.erb within layouts/application (Duration: 17.3ms | Allocations: 3158)
+I, [2023-02-12T16:33:26.755765 #7328]  INFO -- : [770ecf08-9712-42f2-80a0-7cff65a26356]   Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 3967)
+I, [2023-02-12T16:33:26.756256 #7328]  INFO -- : [770ecf08-9712-42f2-80a0-7cff65a26356] Completed 200 OK in 26ms (Views: 16.6ms | ActiveRecord: 4.6ms | Allocations: 5144)
+I, [2023-02-12T16:33:28.096840 #7328]  INFO -- : [eba6ddfc-42e7-4bc3-94eb-e762034086ab] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:33:28 +0530
+I, [2023-02-12T16:33:28.099219 #7328]  INFO -- : [eba6ddfc-42e7-4bc3-94eb-e762034086ab] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:33:28.099478 #7328]  INFO -- : [eba6ddfc-42e7-4bc3-94eb-e762034086ab]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:33:28.097520 #7328]  INFO -- : [d803ccac-4519-408a-a37f-cc704d49df88] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:33:28 +0530
+F, [2023-02-12T16:33:28.101321 #7328] FATAL -- : [d803ccac-4519-408a-a37f-cc704d49df88]   
+[d803ccac-4519-408a-a37f-cc704d49df88] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[d803ccac-4519-408a-a37f-cc704d49df88]   
+I, [2023-02-12T16:33:28.101913 #7328]  INFO -- : [eba6ddfc-42e7-4bc3-94eb-e762034086ab] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 571)
+I, [2023-02-12T16:33:32.058815 #7328]  INFO -- : [7d2f3134-48b5-41c5-aa0d-3c78843250e8] Started GET "/movies" for 127.0.0.1 at 2023-02-12 16:33:32 +0530
+I, [2023-02-12T16:33:32.074121 #7328]  INFO -- : [7d2f3134-48b5-41c5-aa0d-3c78843250e8] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:33:32.100369 #7328]  INFO -- : [7d2f3134-48b5-41c5-aa0d-3c78843250e8]   Rendered movies/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1987)
+I, [2023-02-12T16:33:32.103089 #7328]  INFO -- : [7d2f3134-48b5-41c5-aa0d-3c78843250e8]   Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 2763)
+I, [2023-02-12T16:33:32.103620 #7328]  INFO -- : [7d2f3134-48b5-41c5-aa0d-3c78843250e8] Completed 200 OK in 29ms (Views: 22.4ms | ActiveRecord: 1.8ms | Allocations: 3417)
+I, [2023-02-12T16:33:32.140764 #7328]  INFO -- : [9d2d2548-fae0-4724-96d5-d4d837e80443] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:33:32 +0530
+F, [2023-02-12T16:33:32.141699 #7328] FATAL -- : [9d2d2548-fae0-4724-96d5-d4d837e80443]   
+[9d2d2548-fae0-4724-96d5-d4d837e80443] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[9d2d2548-fae0-4724-96d5-d4d837e80443]   
+I, [2023-02-12T16:33:32.216437 #7328]  INFO -- : [da80ca46-3b6e-4734-b0e6-8951f0832e27] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:33:32 +0530
+I, [2023-02-12T16:33:32.223541 #7328]  INFO -- : [da80ca46-3b6e-4734-b0e6-8951f0832e27] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:33:32.238383 #7328]  INFO -- : [da80ca46-3b6e-4734-b0e6-8951f0832e27]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:33:32.259067 #7328]  INFO -- : [da80ca46-3b6e-4734-b0e6-8951f0832e27] Completed 304 Not Modified in 20ms (ActiveRecord: 0.0ms | Allocations: 329)
+I, [2023-02-12T16:33:39.592622 #7328]  INFO -- : [72958848-217d-47c2-9325-3c6ac37594a6] Started GET "/movies?movie_name=Varisu&release_date=&commit=show" for 127.0.0.1 at 2023-02-12 16:33:39 +0530
+I, [2023-02-12T16:33:39.595468 #7328]  INFO -- : [72958848-217d-47c2-9325-3c6ac37594a6] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:33:39.595738 #7328]  INFO -- : [72958848-217d-47c2-9325-3c6ac37594a6]   Parameters: {"movie_name"=>"Varisu", "release_date"=>"", "commit"=>"show"}
+I, [2023-02-12T16:33:39.622424 #7328]  INFO -- : [72958848-217d-47c2-9325-3c6ac37594a6]   Rendered movies/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 1695)
+I, [2023-02-12T16:33:39.624436 #7328]  INFO -- : [72958848-217d-47c2-9325-3c6ac37594a6]   Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 2471)
+I, [2023-02-12T16:33:39.624926 #7328]  INFO -- : [72958848-217d-47c2-9325-3c6ac37594a6] Completed 200 OK in 29ms (Views: 12.6ms | ActiveRecord: 6.6ms | Allocations: 3167)
+I, [2023-02-12T16:33:40.812489 #7328]  INFO -- : [99a20cd7-f793-4203-9c63-64225c5e3ce3] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:33:40 +0530
+F, [2023-02-12T16:33:40.815558 #7328] FATAL -- : [99a20cd7-f793-4203-9c63-64225c5e3ce3]   
+[99a20cd7-f793-4203-9c63-64225c5e3ce3] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[99a20cd7-f793-4203-9c63-64225c5e3ce3]   
+I, [2023-02-12T16:33:40.878098 #7328]  INFO -- : [f0ec0924-269d-416b-bc53-9a2fbbf61d4c] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:33:40 +0530
+I, [2023-02-12T16:33:40.996376 #7328]  INFO -- : [f0ec0924-269d-416b-bc53-9a2fbbf61d4c] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:33:40.996650 #7328]  INFO -- : [f0ec0924-269d-416b-bc53-9a2fbbf61d4c]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:33:41.003276 #7328]  INFO -- : [f0ec0924-269d-416b-bc53-9a2fbbf61d4c] Completed 304 Not Modified in 6ms (ActiveRecord: 0.0ms | Allocations: 317)
+I, [2023-02-12T16:33:45.144690 #7328]  INFO -- : [f0685479-05a5-4705-9fe0-60f486e05505] Started GET "/movies?movie_name=&release_date=&commit=show" for 127.0.0.1 at 2023-02-12 16:33:45 +0530
+I, [2023-02-12T16:33:45.160260 #7328]  INFO -- : [f0685479-05a5-4705-9fe0-60f486e05505] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:33:45.160995 #7328]  INFO -- : [f0685479-05a5-4705-9fe0-60f486e05505]   Parameters: {"movie_name"=>"", "release_date"=>"", "commit"=>"show"}
+I, [2023-02-12T16:33:45.192005 #7328]  INFO -- : [f0685479-05a5-4705-9fe0-60f486e05505]   Rendered movies/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 1966)
+I, [2023-02-12T16:33:45.195097 #7328]  INFO -- : [f0685479-05a5-4705-9fe0-60f486e05505]   Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 2742)
+I, [2023-02-12T16:33:45.195600 #7328]  INFO -- : [f0685479-05a5-4705-9fe0-60f486e05505] Completed 200 OK in 33ms (Views: 20.3ms | ActiveRecord: 5.5ms | Allocations: 3409)
+I, [2023-02-12T16:33:46.356057 #7328]  INFO -- : [ba74987f-354d-4d70-9ddd-68ba396bee2b] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:33:46 +0530
+I, [2023-02-12T16:33:46.358269 #7328]  INFO -- : [ba74987f-354d-4d70-9ddd-68ba396bee2b] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:33:46.358528 #7328]  INFO -- : [ba74987f-354d-4d70-9ddd-68ba396bee2b]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:33:46.360624 #7328]  INFO -- : [ba74987f-354d-4d70-9ddd-68ba396bee2b] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 329)
+I, [2023-02-12T16:33:46.356768 #7328]  INFO -- : [fe200b76-e5bb-4daf-83d3-61f9ab0d1264] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:33:46 +0530
+F, [2023-02-12T16:33:46.363043 #7328] FATAL -- : [fe200b76-e5bb-4daf-83d3-61f9ab0d1264]   
+[fe200b76-e5bb-4daf-83d3-61f9ab0d1264] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[fe200b76-e5bb-4daf-83d3-61f9ab0d1264]   
+I, [2023-02-12T16:33:46.522808 #7328]  INFO -- : [ad8de75c-6345-4f56-85af-e015c34e454a] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:33:46 +0530
+I, [2023-02-12T16:33:46.524354 #7328]  INFO -- : [ad8de75c-6345-4f56-85af-e015c34e454a] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:33:46.524614 #7328]  INFO -- : [ad8de75c-6345-4f56-85af-e015c34e454a]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:33:46.526492 #7328]  INFO -- : [ad8de75c-6345-4f56-85af-e015c34e454a] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 340)
+I, [2023-02-12T16:33:54.717198 #7328]  INFO -- : [5eaf6d0e-70ff-4916-b986-379663b48e17] Started GET "/movies?movie_name=&release_date=2023-02-13&commit=show" for 127.0.0.1 at 2023-02-12 16:33:54 +0530
+I, [2023-02-12T16:33:54.719073 #7328]  INFO -- : [5eaf6d0e-70ff-4916-b986-379663b48e17] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:33:54.719460 #7328]  INFO -- : [5eaf6d0e-70ff-4916-b986-379663b48e17]   Parameters: {"movie_name"=>"", "release_date"=>"2023-02-13", "commit"=>"show"}
+I, [2023-02-12T16:33:54.767659 #7328]  INFO -- : [5eaf6d0e-70ff-4916-b986-379663b48e17]   Rendered movies/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 1633)
+I, [2023-02-12T16:33:54.775247 #7328]  INFO -- : [5eaf6d0e-70ff-4916-b986-379663b48e17]   Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 2409)
+I, [2023-02-12T16:33:54.777065 #7328]  INFO -- : [5eaf6d0e-70ff-4916-b986-379663b48e17] Completed 200 OK in 57ms (Views: 24.4ms | ActiveRecord: 2.1ms | Allocations: 3134)
+I, [2023-02-12T16:33:55.769293 #7328]  INFO -- : [dfa84b80-d9ca-49e6-ad9a-bb10694b02b0] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:33:55 +0530
+I, [2023-02-12T16:33:55.773545 #7328]  INFO -- : [dfa84b80-d9ca-49e6-ad9a-bb10694b02b0] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:33:55.773794 #7328]  INFO -- : [dfa84b80-d9ca-49e6-ad9a-bb10694b02b0]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:33:55.775711 #7328]  INFO -- : [dfa84b80-d9ca-49e6-ad9a-bb10694b02b0] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 353)
+I, [2023-02-12T16:33:55.771245 #7328]  INFO -- : [5ac84d77-c2a1-4da4-a55f-08c30835fe72] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:33:55 +0530
+F, [2023-02-12T16:33:55.778129 #7328] FATAL -- : [5ac84d77-c2a1-4da4-a55f-08c30835fe72]   
+[5ac84d77-c2a1-4da4-a55f-08c30835fe72] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[5ac84d77-c2a1-4da4-a55f-08c30835fe72]   
+I, [2023-02-12T16:33:58.433076 #7328]  INFO -- : [59895c30-2ba9-4800-ad43-ea1ac843a11f] Started GET "/movies?movie_name=&release_date=2023-02-12&commit=show" for 127.0.0.1 at 2023-02-12 16:33:58 +0530
+I, [2023-02-12T16:33:58.436414 #7328]  INFO -- : [59895c30-2ba9-4800-ad43-ea1ac843a11f] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:33:58.436779 #7328]  INFO -- : [59895c30-2ba9-4800-ad43-ea1ac843a11f]   Parameters: {"movie_name"=>"", "release_date"=>"2023-02-12", "commit"=>"show"}
+I, [2023-02-12T16:33:58.464234 #7328]  INFO -- : [59895c30-2ba9-4800-ad43-ea1ac843a11f]   Rendered movies/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 1595)
+I, [2023-02-12T16:33:58.467287 #7328]  INFO -- : [59895c30-2ba9-4800-ad43-ea1ac843a11f]   Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2371)
+I, [2023-02-12T16:33:58.467818 #7328]  INFO -- : [59895c30-2ba9-4800-ad43-ea1ac843a11f] Completed 200 OK in 31ms (Views: 13.2ms | ActiveRecord: 4.9ms | Allocations: 3068)
+I, [2023-02-12T16:33:59.603217 #7328]  INFO -- : [aaed147f-2c33-4a60-a80d-71c4f9d965d6] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:33:59 +0530
+F, [2023-02-12T16:33:59.610573 #7328] FATAL -- : [aaed147f-2c33-4a60-a80d-71c4f9d965d6]   
+[aaed147f-2c33-4a60-a80d-71c4f9d965d6] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[aaed147f-2c33-4a60-a80d-71c4f9d965d6]   
+I, [2023-02-12T16:33:59.608739 #7328]  INFO -- : [1e66f186-2ed6-407d-b84a-e5c528591e77] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:33:59 +0530
+I, [2023-02-12T16:33:59.612495 #7328]  INFO -- : [1e66f186-2ed6-407d-b84a-e5c528591e77] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:33:59.613182 #7328]  INFO -- : [1e66f186-2ed6-407d-b84a-e5c528591e77]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:33:59.615331 #7328]  INFO -- : [1e66f186-2ed6-407d-b84a-e5c528591e77] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 360)
+I, [2023-02-12T16:34:02.027061 #7328]  INFO -- : [14019e07-4639-4e8c-83be-80536a9430b0] Started GET "/users/edit" for 127.0.0.1 at 2023-02-12 16:34:02 +0530
+I, [2023-02-12T16:34:02.029017 #7328]  INFO -- : [14019e07-4639-4e8c-83be-80536a9430b0] Processing by Users::RegistrationsController#edit as HTML
+I, [2023-02-12T16:34:02.165334 #7328]  INFO -- : [14019e07-4639-4e8c-83be-80536a9430b0]   Rendered users/registrations/edit.html.erb within layouts/application (Duration: 131.6ms | Allocations: 2378)
+I, [2023-02-12T16:34:02.167373 #7328]  INFO -- : [14019e07-4639-4e8c-83be-80536a9430b0]   Rendered layout layouts/application.html.erb (Duration: 133.7ms | Allocations: 3167)
+I, [2023-02-12T16:34:02.167875 #7328]  INFO -- : [14019e07-4639-4e8c-83be-80536a9430b0] Completed 200 OK in 139ms (Views: 136.3ms | ActiveRecord: 0.3ms | Allocations: 3912)
+I, [2023-02-12T16:34:02.182069 #7328]  INFO -- : [2520eb64-7122-40b5-a233-38f4e2769b48] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:34:02 +0530
+F, [2023-02-12T16:34:02.187340 #7328] FATAL -- : [2520eb64-7122-40b5-a233-38f4e2769b48]   
+[2520eb64-7122-40b5-a233-38f4e2769b48] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[2520eb64-7122-40b5-a233-38f4e2769b48]   
+I, [2023-02-12T16:34:04.461672 #7328]  INFO -- : [3e7a818e-0649-474b-9140-90ca8a640961] Started GET "/movies?movie_name=&release_date=2023-02-12&commit=show" for 127.0.0.1 at 2023-02-12 16:34:04 +0530
+I, [2023-02-12T16:34:04.506798 #7328]  INFO -- : [3e7a818e-0649-474b-9140-90ca8a640961] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:34:04.507182 #7328]  INFO -- : [3e7a818e-0649-474b-9140-90ca8a640961]   Parameters: {"movie_name"=>"", "release_date"=>"2023-02-12", "commit"=>"show"}
+I, [2023-02-12T16:34:04.541124 #7328]  INFO -- : [3e7a818e-0649-474b-9140-90ca8a640961]   Rendered movies/index.html.erb within layouts/application (Duration: 17.1ms | Allocations: 1595)
+I, [2023-02-12T16:34:04.551702 #7328]  INFO -- : [3e7a818e-0649-474b-9140-90ca8a640961]   Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 2371)
+I, [2023-02-12T16:34:04.552306 #7328]  INFO -- : [3e7a818e-0649-474b-9140-90ca8a640961] Completed 200 OK in 33ms (Views: 27.3ms | ActiveRecord: 2.1ms | Allocations: 3121)
+I, [2023-02-12T16:34:08.999115 #7328]  INFO -- : [2cb26b0e-c7c1-4a5a-8eaf-95a1cfb49b5f] Started GET "/movies/1" for 127.0.0.1 at 2023-02-12 16:34:08 +0530
+I, [2023-02-12T16:34:09.001043 #7328]  INFO -- : [2cb26b0e-c7c1-4a5a-8eaf-95a1cfb49b5f] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:34:09.001696 #7328]  INFO -- : [2cb26b0e-c7c1-4a5a-8eaf-95a1cfb49b5f]   Parameters: {"id"=>"1"}
+I, [2023-02-12T16:34:09.029582 #7328]  INFO -- : [2cb26b0e-c7c1-4a5a-8eaf-95a1cfb49b5f]   Rendered movies/show.html.erb within layouts/application (Duration: 22.0ms | Allocations: 3750)
+I, [2023-02-12T16:34:09.031481 #7328]  INFO -- : [2cb26b0e-c7c1-4a5a-8eaf-95a1cfb49b5f]   Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 4517)
+I, [2023-02-12T16:34:09.031960 #7328]  INFO -- : [2cb26b0e-c7c1-4a5a-8eaf-95a1cfb49b5f] Completed 200 OK in 30ms (Views: 19.6ms | ActiveRecord: 6.1ms | Allocations: 5665)
+I, [2023-02-12T16:34:12.758734 #7328]  INFO -- : [21479e71-cabb-42d5-ae65-47fd3bce1703] Started GET "/movies" for 127.0.0.1 at 2023-02-12 16:34:12 +0530
+I, [2023-02-12T16:34:12.760469 #7328]  INFO -- : [21479e71-cabb-42d5-ae65-47fd3bce1703] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:34:12.789247 #7328]  INFO -- : [21479e71-cabb-42d5-ae65-47fd3bce1703]   Rendered movies/index.html.erb within layouts/application (Duration: 16.7ms | Allocations: 1954)
+I, [2023-02-12T16:34:12.791182 #7328]  INFO -- : [21479e71-cabb-42d5-ae65-47fd3bce1703]   Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 2730)
+I, [2023-02-12T16:34:12.791907 #7328]  INFO -- : [21479e71-cabb-42d5-ae65-47fd3bce1703] Completed 200 OK in 31ms (Views: 18.2ms | ActiveRecord: 1.7ms | Allocations: 3378)
+I, [2023-02-12T16:34:12.888568 #7328]  INFO -- : [8e82d2bd-9719-4443-9938-510e4fe9ec4a] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:34:12 +0530
+I, [2023-02-12T16:34:12.890810 #7328]  INFO -- : [8e82d2bd-9719-4443-9938-510e4fe9ec4a] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:34:12.891074 #7328]  INFO -- : [8e82d2bd-9719-4443-9938-510e4fe9ec4a]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:34:12.893064 #7328]  INFO -- : [8e82d2bd-9719-4443-9938-510e4fe9ec4a] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 332)
+I, [2023-02-12T16:34:14.168767 #7328]  INFO -- : [5d263a95-2e47-4602-9628-bb57344d2986] Started GET "/movies/new" for 127.0.0.1 at 2023-02-12 16:34:14 +0530
+I, [2023-02-12T16:34:14.170012 #7328]  INFO -- : [5d263a95-2e47-4602-9628-bb57344d2986] Processing by MoviesController#new as HTML
+I, [2023-02-12T16:34:14.176218 #7328]  INFO -- : [5d263a95-2e47-4602-9628-bb57344d2986]   Rendered movies/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1267)
+I, [2023-02-12T16:34:14.178561 #7328]  INFO -- : [5d263a95-2e47-4602-9628-bb57344d2986]   Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2053)
+I, [2023-02-12T16:34:14.181412 #7328]  INFO -- : [5d263a95-2e47-4602-9628-bb57344d2986] Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.3ms | Allocations: 2648)
+I, [2023-02-12T16:34:35.915784 #7328]  INFO -- : [75a7768b-4c5a-4e1c-a0fb-a5cd1ffe7e37] Started POST "/movies" for 127.0.0.1 at 2023-02-12 16:34:35 +0530
+I, [2023-02-12T16:34:35.917398 #7328]  INFO -- : [75a7768b-4c5a-4e1c-a0fb-a5cd1ffe7e37] Processing by MoviesController#create as HTML
+I, [2023-02-12T16:34:35.918003 #7328]  INFO -- : [75a7768b-4c5a-4e1c-a0fb-a5cd1ffe7e37]   Parameters: {"authenticity_token"=>"[FILTERED]", "movie"=>{"name"=>"Panda", "release_date"=>"2023-02-12", "image"=>#<ActionDispatch::Http::UploadedFile:0x000001ad57ed8108 @tempfile=#<Tempfile:C:/Users/ELCOT/AppData/Local/Temp/RackMultipart20230212-7328-7dgpc8.JPG>, @original_filename="84.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"movie[image]\"; filename=\"84.JPG\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Movie"}
+I, [2023-02-12T16:34:36.097257 #7328]  INFO -- : [75a7768b-4c5a-4e1c-a0fb-a5cd1ffe7e37] [36m  Disk Storage (17.4ms) [0m[32mUploaded file to key: 4vl5fkortibc7xmkusi7vxd7ntwn (checksum: XKxjj/prXW1mmxxDWCP+KQ==)[0m
+I, [2023-02-12T16:34:36.098419 #7328]  INFO -- : [75a7768b-4c5a-4e1c-a0fb-a5cd1ffe7e37] [ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 44478fcc-ece3-4afb-ae7f-ee0c4970c784) to Async(default) with arguments: #<GlobalID:0x000001ad579386d0 @uri=#<URI::GID gid://movie-review-app/ActiveStorage::Blob/3>>
+I, [2023-02-12T16:34:36.101474 #7328]  INFO -- : [75a7768b-4c5a-4e1c-a0fb-a5cd1ffe7e37] Redirected to http://localhost:3000/movies/3
+I, [2023-02-12T16:34:36.101829 #7328]  INFO -- : [75a7768b-4c5a-4e1c-a0fb-a5cd1ffe7e37] Completed 302 Found in 184ms (ActiveRecord: 123.3ms | Allocations: 3061)
+I, [2023-02-12T16:34:36.100578 #7328]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [44478fcc-ece3-4afb-ae7f-ee0c4970c784] Performing ActiveStorage::AnalyzeJob (Job ID: 44478fcc-ece3-4afb-ae7f-ee0c4970c784) from Async(default) enqueued at 2023-02-12T11:04:36Z with arguments: #<GlobalID:0x000001ad57ef9420 @uri=#<URI::GID gid://movie-review-app/ActiveStorage::Blob/3>>
+I, [2023-02-12T16:34:36.115496 #7328]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [44478fcc-ece3-4afb-ae7f-ee0c4970c784] [36m  Disk Storage (7.4ms) [0m[34mDownloaded file from key: 4vl5fkortibc7xmkusi7vxd7ntwn[0m
+I, [2023-02-12T16:34:36.140667 #7328]  INFO -- : [afe954f1-94df-44f9-958b-97fb6d88dbe3] Started GET "/movies/3" for 127.0.0.1 at 2023-02-12 16:34:36 +0530
+I, [2023-02-12T16:34:36.143274 #7328]  INFO -- : [afe954f1-94df-44f9-958b-97fb6d88dbe3] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:34:36.143980 #7328]  INFO -- : [afe954f1-94df-44f9-958b-97fb6d88dbe3]   Parameters: {"id"=>"3"}
+I, [2023-02-12T16:34:36.168908 #7328]  INFO -- : [afe954f1-94df-44f9-958b-97fb6d88dbe3]   Rendered movies/show.html.erb within layouts/application (Duration: 13.8ms | Allocations: 3159)
+I, [2023-02-12T16:34:36.171887 #7328]  INFO -- : [afe954f1-94df-44f9-958b-97fb6d88dbe3]   Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 4026)
+I, [2023-02-12T16:34:36.176200 #7328]  INFO -- : [afe954f1-94df-44f9-958b-97fb6d88dbe3] Completed 200 OK in 31ms (Views: 20.4ms | ActiveRecord: 2.0ms | Allocations: 5225)
+I, [2023-02-12T16:34:36.396236 #7328]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [44478fcc-ece3-4afb-ae7f-ee0c4970c784] Performed ActiveStorage::AnalyzeJob (Job ID: 44478fcc-ece3-4afb-ae7f-ee0c4970c784) from Async(default) in 297.33ms
+I, [2023-02-12T16:34:37.302439 #7328]  INFO -- : [5e77a52a-f901-4e33-b23c-9713d3f3765d] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:34:37 +0530
+F, [2023-02-12T16:34:37.303983 #7328] FATAL -- : [5e77a52a-f901-4e33-b23c-9713d3f3765d]   
+[5e77a52a-f901-4e33-b23c-9713d3f3765d] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[5e77a52a-f901-4e33-b23c-9713d3f3765d]   
+I, [2023-02-12T16:34:37.303166 #7328]  INFO -- : [fdcf72f0-b59f-4ccd-9110-a503ea81cca8] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4230a008c05dcadb3d838d4fd05b7b9792316c92/84.JPG" for 127.0.0.1 at 2023-02-12 16:34:37 +0530
+I, [2023-02-12T16:34:37.310022 #7328]  INFO -- : [fdcf72f0-b59f-4ccd-9110-a503ea81cca8] Processing by ActiveStorage::Blobs::RedirectController#show as */*
+I, [2023-02-12T16:34:37.310345 #7328]  INFO -- : [fdcf72f0-b59f-4ccd-9110-a503ea81cca8]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--4230a008c05dcadb3d838d4fd05b7b9792316c92", "filename"=>"84"}
+I, [2023-02-12T16:34:37.313919 #7328]  INFO -- : [fdcf72f0-b59f-4ccd-9110-a503ea81cca8] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOSFpzTldacmIzSjBhV0pqTjNodGEzVnphVGQyZUdRM2JuUjNiZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowOTozNy4zMTJaIiwicHVyIjoiYmxvYl9rZXkifX0=--130a14d4259b9c6a77c4eaca1e15132f7d521ddb/84.JPG
+I, [2023-02-12T16:34:37.314331 #7328]  INFO -- : [fdcf72f0-b59f-4ccd-9110-a503ea81cca8] Completed 302 Found in 4ms (ActiveRecord: 0.3ms | Allocations: 655)
+I, [2023-02-12T16:34:37.499994 #7328]  INFO -- : [578933a7-89f4-4c25-9012-2ca221cdc6de] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOSFpzTldacmIzSjBhV0pqTjNodGEzVnphVGQyZUdRM2JuUjNiZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowOTozNy4zMTJaIiwicHVyIjoiYmxvYl9rZXkifX0=--130a14d4259b9c6a77c4eaca1e15132f7d521ddb/84.JPG" for 127.0.0.1 at 2023-02-12 16:34:37 +0530
+I, [2023-02-12T16:34:37.501848 #7328]  INFO -- : [578933a7-89f4-4c25-9012-2ca221cdc6de] Processing by ActiveStorage::DiskController#show as */*
+I, [2023-02-12T16:34:37.502084 #7328]  INFO -- : [578933a7-89f4-4c25-9012-2ca221cdc6de]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"84"}
+I, [2023-02-12T16:34:37.504475 #7328]  INFO -- : [578933a7-89f4-4c25-9012-2ca221cdc6de] Completed 200 OK in 2ms (ActiveRecord: 0.0ms | Allocations: 348)
+I, [2023-02-12T16:34:42.281850 #7328]  INFO -- : [76e2a7c5-e4f0-40dd-969b-6077a11b196d] Started POST "/movies/3/ratings" for 127.0.0.1 at 2023-02-12 16:34:42 +0530
+I, [2023-02-12T16:34:42.283051 #7328]  INFO -- : [76e2a7c5-e4f0-40dd-969b-6077a11b196d] Processing by RatingsController#create as HTML
+I, [2023-02-12T16:34:42.283268 #7328]  INFO -- : [76e2a7c5-e4f0-40dd-969b-6077a11b196d]   Parameters: {"authenticity_token"=>"[FILTERED]", "rating"=>{"movie_id"=>"3", "star"=>"3"}, "commit"=>"Add", "movie_id"=>"3"}
+I, [2023-02-12T16:34:42.464035 #7328]  INFO -- : [76e2a7c5-e4f0-40dd-969b-6077a11b196d] Redirected to http://localhost:3000/movies/3
+I, [2023-02-12T16:34:42.464642 #7328]  INFO -- : [76e2a7c5-e4f0-40dd-969b-6077a11b196d] Completed 302 Found in 181ms (ActiveRecord: 163.4ms | Allocations: 2064)
+I, [2023-02-12T16:34:42.482270 #7328]  INFO -- : [f0ad1a77-8916-4c45-96ab-4e7040a2a57c] Started GET "/movies/3" for 127.0.0.1 at 2023-02-12 16:34:42 +0530
+I, [2023-02-12T16:34:42.483545 #7328]  INFO -- : [f0ad1a77-8916-4c45-96ab-4e7040a2a57c] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:34:42.483801 #7328]  INFO -- : [f0ad1a77-8916-4c45-96ab-4e7040a2a57c]   Parameters: {"id"=>"3"}
+I, [2023-02-12T16:34:42.511036 #7328]  INFO -- : [f0ad1a77-8916-4c45-96ab-4e7040a2a57c]   Rendered movies/show.html.erb within layouts/application (Duration: 20.3ms | Allocations: 3158)
+I, [2023-02-12T16:34:42.513075 #7328]  INFO -- : [f0ad1a77-8916-4c45-96ab-4e7040a2a57c]   Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 3967)
+I, [2023-02-12T16:34:42.514351 #7328]  INFO -- : [f0ad1a77-8916-4c45-96ab-4e7040a2a57c] Completed 200 OK in 30ms (Views: 22.5ms | ActiveRecord: 2.2ms | Allocations: 5162)
+I, [2023-02-12T16:34:43.870291 #7328]  INFO -- : [d0d460c5-a331-4d6b-aa2d-6949d1da50d1] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:34:43 +0530
+F, [2023-02-12T16:34:43.872575 #7328] FATAL -- : [d0d460c5-a331-4d6b-aa2d-6949d1da50d1]   
+[d0d460c5-a331-4d6b-aa2d-6949d1da50d1] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[d0d460c5-a331-4d6b-aa2d-6949d1da50d1]   
+I, [2023-02-12T16:34:43.871813 #7328]  INFO -- : [57610332-a037-4267-9459-07c66da4f2cb] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhOSFpzTldacmIzSjBhV0pqTjNodGEzVnphVGQyZUdRM2JuUjNiZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowOTozNy4zMTJaIiwicHVyIjoiYmxvYl9rZXkifX0=--130a14d4259b9c6a77c4eaca1e15132f7d521ddb/84.JPG" for 127.0.0.1 at 2023-02-12 16:34:43 +0530
+I, [2023-02-12T16:34:43.874356 #7328]  INFO -- : [57610332-a037-4267-9459-07c66da4f2cb] Processing by ActiveStorage::DiskController#show as */*
+I, [2023-02-12T16:34:43.874601 #7328]  INFO -- : [57610332-a037-4267-9459-07c66da4f2cb]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"84"}
+I, [2023-02-12T16:34:43.889977 #7328]  INFO -- : [57610332-a037-4267-9459-07c66da4f2cb] Completed 304 Not Modified in 15ms (ActiveRecord: 0.0ms | Allocations: 326)
+I, [2023-02-12T16:34:45.851422 #7328]  INFO -- : [f1fc2382-3b94-4fa7-9f34-d4b67774a289] Started GET "/movies" for 127.0.0.1 at 2023-02-12 16:34:45 +0530
+I, [2023-02-12T16:34:45.852765 #7328]  INFO -- : [f1fc2382-3b94-4fa7-9f34-d4b67774a289] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:34:45.872719 #7328]  INFO -- : [f1fc2382-3b94-4fa7-9f34-d4b67774a289]   Rendered movies/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 2251)
+I, [2023-02-12T16:34:45.874921 #7328]  INFO -- : [f1fc2382-3b94-4fa7-9f34-d4b67774a289]   Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 3027)
+I, [2023-02-12T16:34:45.875456 #7328]  INFO -- : [f1fc2382-3b94-4fa7-9f34-d4b67774a289] Completed 200 OK in 22ms (Views: 18.0ms | ActiveRecord: 2.2ms | Allocations: 3684)
+I, [2023-02-12T16:34:45.900157 #7328]  INFO -- : [1101f5a8-d6cd-420d-9f07-d200be3113ee] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:34:45 +0530
+F, [2023-02-12T16:34:45.901353 #7328] FATAL -- : [1101f5a8-d6cd-420d-9f07-d200be3113ee]   
+[1101f5a8-d6cd-420d-9f07-d200be3113ee] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[1101f5a8-d6cd-420d-9f07-d200be3113ee]   
+I, [2023-02-12T16:34:45.983950 #7328]  INFO -- : [a6f663d2-a4bc-470c-8dcb-db93b76bf394] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:34:45 +0530
+I, [2023-02-12T16:34:45.986696 #7328]  INFO -- : [a6f663d2-a4bc-470c-8dcb-db93b76bf394] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:34:45.986940 #7328]  INFO -- : [a6f663d2-a4bc-470c-8dcb-db93b76bf394]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:34:45.984680 #7328]  INFO -- : [59cdf40f-260f-4a74-bde1-c687f633f21b] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:34:45 +0530
+I, [2023-02-12T16:34:45.989143 #7328]  INFO -- : [59cdf40f-260f-4a74-bde1-c687f633f21b] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:34:45.989658 #7328]  INFO -- : [59cdf40f-260f-4a74-bde1-c687f633f21b]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:34:45.989559 #7328]  INFO -- : [a6f663d2-a4bc-470c-8dcb-db93b76bf394] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 722)
+I, [2023-02-12T16:34:45.991970 #7328]  INFO -- : [59cdf40f-260f-4a74-bde1-c687f633f21b] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 656)
+I, [2023-02-12T16:34:47.368183 #7328]  INFO -- : [1c7adc99-99c2-4e90-b63d-72b5ac4a9bed] Started GET "/movies/3" for 127.0.0.1 at 2023-02-12 16:34:47 +0530
+I, [2023-02-12T16:34:47.370881 #7328]  INFO -- : [1c7adc99-99c2-4e90-b63d-72b5ac4a9bed] Processing by MoviesController#show as HTML
+I, [2023-02-12T16:34:47.371279 #7328]  INFO -- : [1c7adc99-99c2-4e90-b63d-72b5ac4a9bed]   Parameters: {"id"=>"3"}
+I, [2023-02-12T16:34:47.416977 #7328]  INFO -- : [1c7adc99-99c2-4e90-b63d-72b5ac4a9bed]   Rendered movies/show.html.erb within layouts/application (Duration: 33.9ms | Allocations: 3158)
+I, [2023-02-12T16:34:47.435511 #7328]  INFO -- : [1c7adc99-99c2-4e90-b63d-72b5ac4a9bed]   Rendered layout layouts/application.html.erb (Duration: 52.3ms | Allocations: 3934)
+I, [2023-02-12T16:34:47.436755 #7328]  INFO -- : [1c7adc99-99c2-4e90-b63d-72b5ac4a9bed] Completed 200 OK in 65ms (Views: 51.7ms | ActiveRecord: 4.2ms | Allocations: 5115)
+I, [2023-02-12T16:34:50.091547 #7328]  INFO -- : [1686edbe-5d5f-40a6-a576-f86ebc2351f6] Started DELETE "/movies/3" for 127.0.0.1 at 2023-02-12 16:34:50 +0530
+I, [2023-02-12T16:34:50.093126 #7328]  INFO -- : [1686edbe-5d5f-40a6-a576-f86ebc2351f6] Processing by MoviesController#destroy as HTML
+I, [2023-02-12T16:34:50.093369 #7328]  INFO -- : [1686edbe-5d5f-40a6-a576-f86ebc2351f6]   Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"3"}
+I, [2023-02-12T16:34:50.301223 #7328]  INFO -- : [1686edbe-5d5f-40a6-a576-f86ebc2351f6] Redirected to http://localhost:3000/movies
+I, [2023-02-12T16:34:50.309585 #7328]  INFO -- : [1686edbe-5d5f-40a6-a576-f86ebc2351f6] Completed 302 Found in 216ms (ActiveRecord: 160.8ms | Allocations: 2058)
+I, [2023-02-12T16:34:50.339446 #7328]  INFO -- : [512b1423-1feb-40d2-8fcd-f6589b4b538d] Started GET "/movies" for 127.0.0.1 at 2023-02-12 16:34:50 +0530
+I, [2023-02-12T16:34:50.341178 #7328]  INFO -- : [512b1423-1feb-40d2-8fcd-f6589b4b538d] Processing by MoviesController#index as HTML
+I, [2023-02-12T16:34:50.366759 #7328]  INFO -- : [512b1423-1feb-40d2-8fcd-f6589b4b538d]   Rendered movies/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1960)
+I, [2023-02-12T16:34:50.370344 #7328]  INFO -- : [512b1423-1feb-40d2-8fcd-f6589b4b538d]   Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 2769)
+I, [2023-02-12T16:34:50.370992 #7328]  INFO -- : [512b1423-1feb-40d2-8fcd-f6589b4b538d] Completed 200 OK in 29ms (Views: 24.0ms | ActiveRecord: 2.4ms | Allocations: 3449)
+I, [2023-02-12T16:34:51.585063 #7328]  INFO -- : [cbde5255-60ee-4146-99b3-d1ee28271f11] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-12 16:34:51 +0530
+F, [2023-02-12T16:34:51.586611 #7328] FATAL -- : [cbde5255-60ee-4146-99b3-d1ee28271f11]   
+[cbde5255-60ee-4146-99b3-d1ee28271f11] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[cbde5255-60ee-4146-99b3-d1ee28271f11]   
+I, [2023-02-12T16:34:51.585800 #7328]  INFO -- : [72ceb173-deb5-4b3e-9bd3-cfd1128e662b] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNzoyNi42MzVaIiwicHVyIjoiYmxvYl9rZXkifX0=--a3c503d7edad4d6355a1ab68a445e2b5de3482f5/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-12 16:34:51 +0530
+I, [2023-02-12T16:34:51.590240 #7328]  INFO -- : [72ceb173-deb5-4b3e-9bd3-cfd1128e662b] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:34:51.590670 #7328]  INFO -- : [72ceb173-deb5-4b3e-9bd3-cfd1128e662b]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-12T16:34:51.592481 #7328]  INFO -- : [72ceb173-deb5-4b3e-9bd3-cfd1128e662b] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 347)
+I, [2023-02-12T16:34:51.776581 #7328]  INFO -- : [637f9882-d97d-4362-be7d-d6ff710d80cf] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xMlQxMTowNTo0My4zMjRaIiwicHVyIjoiYmxvYl9rZXkifX0=--b27cb0ca1c86b86f4c4dcb442c0a939937a541bb/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-12 16:34:51 +0530
+I, [2023-02-12T16:34:51.778276 #7328]  INFO -- : [637f9882-d97d-4362-be7d-d6ff710d80cf] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-12T16:34:51.778549 #7328]  INFO -- : [637f9882-d97d-4362-be7d-d6ff710d80cf]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-12T16:34:51.808300 #7328]  INFO -- : [637f9882-d97d-4362-be7d-d6ff710d80cf] Completed 304 Not Modified in 30ms (ActiveRecord: 0.0ms | Allocations: 348)
+W, [2023-02-13T17:17:56.679438 #5816]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2023-02-13T17:19:27.304152 #2712]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-02-13T17:20:52.833999 #2712]  INFO -- : [a74ae9e2-add1-4f66-bed3-c3cba185a9af] Started GET "/" for 127.0.0.1 at 2023-02-13 17:20:52 +0530
+I, [2023-02-13T17:20:52.840520 #2712]  INFO -- : [a74ae9e2-add1-4f66-bed3-c3cba185a9af] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:20:52.851069 #2712]  INFO -- : [a74ae9e2-add1-4f66-bed3-c3cba185a9af] Completed 401 Unauthorized in 10ms (Allocations: 544)
+I, [2023-02-13T17:20:52.982526 #2712]  INFO -- : [1d5d4417-a3d7-4948-9e3c-a9cb2ed12aa5] Started GET "/users/sign_in" for 127.0.0.1 at 2023-02-13 17:20:52 +0530
+I, [2023-02-13T17:20:52.984842 #2712]  INFO -- : [1d5d4417-a3d7-4948-9e3c-a9cb2ed12aa5] Processing by Users::SessionsController#new as HTML
+I, [2023-02-13T17:20:53.467534 #2712]  INFO -- : [1d5d4417-a3d7-4948-9e3c-a9cb2ed12aa5]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 222.2ms | Allocations: 3055)
+I, [2023-02-13T17:20:53.481468 #2712]  INFO -- : [1d5d4417-a3d7-4948-9e3c-a9cb2ed12aa5]   Rendered layout layouts/application.html.erb (Duration: 236.3ms | Allocations: 4855)
+I, [2023-02-13T17:20:53.482276 #2712]  INFO -- : [1d5d4417-a3d7-4948-9e3c-a9cb2ed12aa5] Completed 200 OK in 497ms (Views: 331.0ms | ActiveRecord: 5.3ms | Allocations: 13180)
+I, [2023-02-13T17:21:04.303674 #2712]  INFO -- : [1fe38e7d-bd58-41d0-a5a2-e74beb429d6a] Started GET "/" for 127.0.0.1 at 2023-02-13 17:21:04 +0530
+I, [2023-02-13T17:21:04.305346 #2712]  INFO -- : [1fe38e7d-bd58-41d0-a5a2-e74beb429d6a] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:21:04.306706 #2712]  INFO -- : [1fe38e7d-bd58-41d0-a5a2-e74beb429d6a] Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 336)
+I, [2023-02-13T17:21:04.336393 #2712]  INFO -- : [beb1c0ab-eba6-4405-8f35-a0ef50b02a8a] Started GET "/users/sign_in" for 127.0.0.1 at 2023-02-13 17:21:04 +0530
+I, [2023-02-13T17:21:04.337886 #2712]  INFO -- : [beb1c0ab-eba6-4405-8f35-a0ef50b02a8a] Processing by Users::SessionsController#new as HTML
+I, [2023-02-13T17:21:04.374975 #2712]  INFO -- : [beb1c0ab-eba6-4405-8f35-a0ef50b02a8a]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 34.0ms | Allocations: 1350)
+I, [2023-02-13T17:21:04.411044 #2712]  INFO -- : [beb1c0ab-eba6-4405-8f35-a0ef50b02a8a]   Rendered layout layouts/application.html.erb (Duration: 70.1ms | Allocations: 2076)
+I, [2023-02-13T17:21:04.411674 #2712]  INFO -- : [beb1c0ab-eba6-4405-8f35-a0ef50b02a8a] Completed 200 OK in 73ms (Views: 71.4ms | ActiveRecord: 0.0ms | Allocations: 2750)
+I, [2023-02-13T17:21:05.680839 #2712]  INFO -- : [975f8e7a-32e1-47b2-8e84-e032331daa25] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:21:05 +0530
+F, [2023-02-13T17:21:05.690708 #2712] FATAL -- : [975f8e7a-32e1-47b2-8e84-e032331daa25]   
+[975f8e7a-32e1-47b2-8e84-e032331daa25] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[975f8e7a-32e1-47b2-8e84-e032331daa25]   
+I, [2023-02-13T17:21:06.678330 #2712]  INFO -- : [04a60c27-2dc9-4be6-a082-1f21116ee90b] Started GET "/favicon.ico" for 127.0.0.1 at 2023-02-13 17:21:06 +0530
+F, [2023-02-13T17:21:06.693890 #2712] FATAL -- : [04a60c27-2dc9-4be6-a082-1f21116ee90b]   
+[04a60c27-2dc9-4be6-a082-1f21116ee90b] ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+[04a60c27-2dc9-4be6-a082-1f21116ee90b]   
+I, [2023-02-13T17:21:14.826361 #2712]  INFO -- : [73ce09d7-ee9c-4fa7-90db-db8b8532fb71] Started POST "/users/sign_in" for 127.0.0.1 at 2023-02-13 17:21:14 +0530
+I, [2023-02-13T17:21:14.828415 #2712]  INFO -- : [73ce09d7-ee9c-4fa7-90db-db8b8532fb71] Processing by Users::SessionsController#create as HTML
+I, [2023-02-13T17:21:14.828670 #2712]  INFO -- : [73ce09d7-ee9c-4fa7-90db-db8b8532fb71]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-02-13T17:21:14.910153 #2712]  INFO -- : [73ce09d7-ee9c-4fa7-90db-db8b8532fb71] Completed 401 Unauthorized in 81ms (ActiveRecord: 25.5ms | Allocations: 1556)
+I, [2023-02-13T17:21:14.912741 #2712]  INFO -- : [73ce09d7-ee9c-4fa7-90db-db8b8532fb71] Processing by Users::SessionsController#new as HTML
+I, [2023-02-13T17:21:14.913225 #2712]  INFO -- : [73ce09d7-ee9c-4fa7-90db-db8b8532fb71]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"test@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-02-13T17:21:15.414598 #2712]  INFO -- : [73ce09d7-ee9c-4fa7-90db-db8b8532fb71]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1490)
+I, [2023-02-13T17:21:15.416949 #2712]  INFO -- : [73ce09d7-ee9c-4fa7-90db-db8b8532fb71]   Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2215)
+I, [2023-02-13T17:21:15.417457 #2712]  INFO -- : [73ce09d7-ee9c-4fa7-90db-db8b8532fb71] Completed 200 OK in 504ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 3446)
+I, [2023-02-13T17:21:16.542674 #2712]  INFO -- : [ca6043ae-0b53-4604-8949-2b73c64f6e0c] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:21:16 +0530
+F, [2023-02-13T17:21:16.543601 #2712] FATAL -- : [ca6043ae-0b53-4604-8949-2b73c64f6e0c]   
+[ca6043ae-0b53-4604-8949-2b73c64f6e0c] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[ca6043ae-0b53-4604-8949-2b73c64f6e0c]   
+I, [2023-02-13T17:21:25.000466 #2712]  INFO -- : [b9510a23-e83b-4b5d-b434-2cb760c53c8e] Started POST "/users/sign_in" for 127.0.0.1 at 2023-02-13 17:21:25 +0530
+I, [2023-02-13T17:21:25.002465 #2712]  INFO -- : [b9510a23-e83b-4b5d-b434-2cb760c53c8e] Processing by Users::SessionsController#create as HTML
+I, [2023-02-13T17:21:25.002805 #2712]  INFO -- : [b9510a23-e83b-4b5d-b434-2cb760c53c8e]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"test@mail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-02-13T17:21:25.397611 #2712]  INFO -- : [b9510a23-e83b-4b5d-b434-2cb760c53c8e] Redirected to http://localhost:3000/
+I, [2023-02-13T17:21:25.397990 #2712]  INFO -- : [b9510a23-e83b-4b5d-b434-2cb760c53c8e] Completed 302 Found in 395ms (ActiveRecord: 0.4ms | Allocations: 1689)
+I, [2023-02-13T17:21:25.425798 #2712]  INFO -- : [6b61ce20-554b-416f-a88e-63341091a472] Started GET "/" for 127.0.0.1 at 2023-02-13 17:21:25 +0530
+I, [2023-02-13T17:21:25.426933 #2712]  INFO -- : [6b61ce20-554b-416f-a88e-63341091a472] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:21:25.497041 #2712]  INFO -- : [6b61ce20-554b-416f-a88e-63341091a472]   Rendered movies/index.html.erb within layouts/application (Duration: 53.3ms | Allocations: 14091)
+I, [2023-02-13T17:21:25.502079 #2712]  INFO -- : [6b61ce20-554b-416f-a88e-63341091a472]   Rendered layout layouts/application.html.erb (Duration: 58.4ms | Allocations: 15186)
+I, [2023-02-13T17:21:25.502728 #2712]  INFO -- : [6b61ce20-554b-416f-a88e-63341091a472] Completed 200 OK in 76ms (Views: 63.0ms | ActiveRecord: 6.2ms | Allocations: 17002)
+I, [2023-02-13T17:21:26.600694 #2712]  INFO -- : [8be270a7-be11-4520-a424-efebf954a21b] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:21:26 +0530
+F, [2023-02-13T17:21:26.602878 #2712] FATAL -- : [8be270a7-be11-4520-a424-efebf954a21b]   
+[8be270a7-be11-4520-a424-efebf954a21b] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[8be270a7-be11-4520-a424-efebf954a21b]   
+I, [2023-02-13T17:21:26.601554 #2712]  INFO -- : [65f77241-9739-47f0-b6a8-0484da076f7c] Started GET "/assets/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css" for 127.0.0.1 at 2023-02-13 17:21:26 +0530
+I, [2023-02-13T17:21:26.933356 #2712]  INFO -- : [f4808985-24be-4659-b121-28b033e40b7a] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ba7e70c7d794df1bc8c6dc54513d14780ecf3153/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-13 17:21:26 +0530
+I, [2023-02-13T17:21:26.953708 #2712]  INFO -- : [f4808985-24be-4659-b121-28b033e40b7a] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-02-13T17:21:26.967932 #2712]  INFO -- : [f4808985-24be-4659-b121-28b033e40b7a]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ba7e70c7d794df1bc8c6dc54513d14780ecf3153", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-13T17:21:26.984342 #2712]  INFO -- : [f4808985-24be-4659-b121-28b033e40b7a] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMTo1NjoyNi45ODBaIiwicHVyIjoiYmxvYl9rZXkifX0=--44680f12af19b0192ea6ec242ef721b6baa780ad/FB_IMG_15316517576724822.jpg
+I, [2023-02-13T17:21:26.984844 #2712]  INFO -- : [f4808985-24be-4659-b121-28b033e40b7a] Completed 302 Found in 15ms (ActiveRecord: 0.5ms | Allocations: 1379)
+I, [2023-02-13T17:21:27.027967 #2712]  INFO -- : [db0569c7-bc07-470a-b4f3-0729de21fbdc] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c6726cf26182cdc0cdc28a70e8fec77f79775b11/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:21:27 +0530
+I, [2023-02-13T17:21:27.033487 #2712]  INFO -- : [db0569c7-bc07-470a-b4f3-0729de21fbdc] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-02-13T17:21:27.039207 #2712]  INFO -- : [db0569c7-bc07-470a-b4f3-0729de21fbdc]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c6726cf26182cdc0cdc28a70e8fec77f79775b11", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:21:27.045360 #2712]  INFO -- : [db0569c7-bc07-470a-b4f3-0729de21fbdc] Redirected to http://localhost:3000/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMTo1NjoyNy4wNDJaIiwicHVyIjoiYmxvYl9rZXkifX0=--40ff3f4ed30d4c1b1288cf1ca2efe07a1a349626/FB_IMG_15317454381951734.jpg
+I, [2023-02-13T17:21:27.045820 #2712]  INFO -- : [db0569c7-bc07-470a-b4f3-0729de21fbdc] Completed 302 Found in 6ms (ActiveRecord: 1.0ms | Allocations: 665)
+I, [2023-02-13T17:21:27.059788 #2712]  INFO -- : [f168db00-913d-4bbb-916c-b0c530236c4a] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMTo1NjoyNi45ODBaIiwicHVyIjoiYmxvYl9rZXkifX0=--44680f12af19b0192ea6ec242ef721b6baa780ad/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-13 17:21:27 +0530
+I, [2023-02-13T17:21:27.062451 #2712]  INFO -- : [f168db00-913d-4bbb-916c-b0c530236c4a] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:21:27.062717 #2712]  INFO -- : [f168db00-913d-4bbb-916c-b0c530236c4a]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-13T17:21:27.107346 #2712]  INFO -- : [e7f25cef-d4fc-4080-be07-ebe642a86fd6] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMTo1NjoyNy4wNDJaIiwicHVyIjoiYmxvYl9rZXkifX0=--40ff3f4ed30d4c1b1288cf1ca2efe07a1a349626/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:21:27 +0530
+I, [2023-02-13T17:21:27.110049 #2712]  INFO -- : [e7f25cef-d4fc-4080-be07-ebe642a86fd6] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:21:27.110322 #2712]  INFO -- : [e7f25cef-d4fc-4080-be07-ebe642a86fd6]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:21:27.582735 #2712]  INFO -- : [f168db00-913d-4bbb-916c-b0c530236c4a] Completed 200 OK in 520ms (ActiveRecord: 0.0ms | Allocations: 7653)
+I, [2023-02-13T17:21:27.583753 #2712]  INFO -- : [e7f25cef-d4fc-4080-be07-ebe642a86fd6] Completed 200 OK in 473ms (ActiveRecord: 0.0ms | Allocations: 6176)
+F, [2023-02-13T17:21:32.162728 #2712] FATAL -- : [65f77241-9739-47f0-b6a8-0484da076f7c]   
+[65f77241-9739-47f0-b6a8-0484da076f7c] ActionController::RoutingError (No route matches [GET] "/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css"):
+[65f77241-9739-47f0-b6a8-0484da076f7c]   
+I, [2023-02-13T17:21:40.774135 #2712]  INFO -- : [faa38281-40f6-4b37-95d0-4e932e620f34] Started GET "/" for 127.0.0.1 at 2023-02-13 17:21:40 +0530
+I, [2023-02-13T17:21:40.775370 #2712]  INFO -- : [faa38281-40f6-4b37-95d0-4e932e620f34] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:21:40.792500 #2712]  INFO -- : [faa38281-40f6-4b37-95d0-4e932e620f34]   Rendered movies/index.html.erb within layouts/application (Duration: 13.6ms | Allocations: 2139)
+I, [2023-02-13T17:21:40.794627 #2712]  INFO -- : [faa38281-40f6-4b37-95d0-4e932e620f34]   Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 2946)
+I, [2023-02-13T17:21:40.795117 #2712]  INFO -- : [faa38281-40f6-4b37-95d0-4e932e620f34] Completed 200 OK in 19ms (Views: 14.2ms | ActiveRecord: 2.7ms | Allocations: 3839)
+I, [2023-02-13T17:21:42.067572 #2712]  INFO -- : [e76b49b4-69a0-4685-a0d8-acf778046d97] Started GET "/assets/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css" for 127.0.0.1 at 2023-02-13 17:21:42 +0530
+F, [2023-02-13T17:21:42.069144 #2712] FATAL -- : [e76b49b4-69a0-4685-a0d8-acf778046d97]   
+[e76b49b4-69a0-4685-a0d8-acf778046d97] ActionController::RoutingError (No route matches [GET] "/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css"):
+[e76b49b4-69a0-4685-a0d8-acf778046d97]   
+I, [2023-02-13T17:21:42.066001 #2712]  INFO -- : [11486914-fb7f-4ce3-8719-f4d6fec5a7c6] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:21:42 +0530
+F, [2023-02-13T17:21:42.070291 #2712] FATAL -- : [11486914-fb7f-4ce3-8719-f4d6fec5a7c6]   
+[11486914-fb7f-4ce3-8719-f4d6fec5a7c6] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[11486914-fb7f-4ce3-8719-f4d6fec5a7c6]   
+I, [2023-02-13T17:21:42.294874 #2712]  INFO -- : [4a496b14-6814-4299-a6ec-7f262dea95fd] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMTo1NjoyNy4wNDJaIiwicHVyIjoiYmxvYl9rZXkifX0=--40ff3f4ed30d4c1b1288cf1ca2efe07a1a349626/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:21:42 +0530
+I, [2023-02-13T17:21:42.299430 #2712]  INFO -- : [4a496b14-6814-4299-a6ec-7f262dea95fd] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:21:42.299715 #2712]  INFO -- : [4a496b14-6814-4299-a6ec-7f262dea95fd]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:21:42.305702 #2712]  INFO -- : [4a496b14-6814-4299-a6ec-7f262dea95fd] Completed 304 Not Modified in 6ms (ActiveRecord: 0.0ms | Allocations: 341)
+I, [2023-02-13T17:21:42.296464 #2712]  INFO -- : [18ab3c59-8eaf-43b6-8f72-1e0dc2fe03d6] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMTo1NjoyNi45ODBaIiwicHVyIjoiYmxvYl9rZXkifX0=--44680f12af19b0192ea6ec242ef721b6baa780ad/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-13 17:21:42 +0530
+I, [2023-02-13T17:21:42.308776 #2712]  INFO -- : [18ab3c59-8eaf-43b6-8f72-1e0dc2fe03d6] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:21:42.309262 #2712]  INFO -- : [18ab3c59-8eaf-43b6-8f72-1e0dc2fe03d6]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-13T17:21:42.311217 #2712]  INFO -- : [18ab3c59-8eaf-43b6-8f72-1e0dc2fe03d6] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 317)
+I, [2023-02-13T17:21:46.795374 #2712]  INFO -- : [556a463d-43c3-409c-a487-4605b5cbfbbb] Started GET "/movies/2" for 127.0.0.1 at 2023-02-13 17:21:46 +0530
+I, [2023-02-13T17:21:46.796588 #2712]  INFO -- : [556a463d-43c3-409c-a487-4605b5cbfbbb] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:21:46.796834 #2712]  INFO -- : [556a463d-43c3-409c-a487-4605b5cbfbbb]   Parameters: {"id"=>"2"}
+I, [2023-02-13T17:21:46.852530 #2712]  INFO -- : [556a463d-43c3-409c-a487-4605b5cbfbbb]   Rendered movies/show.html.erb within layouts/application (Duration: 26.9ms | Allocations: 5844)
+I, [2023-02-13T17:21:46.855987 #2712]  INFO -- : [556a463d-43c3-409c-a487-4605b5cbfbbb]   Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 6622)
+I, [2023-02-13T17:21:46.856583 #2712]  INFO -- : [556a463d-43c3-409c-a487-4605b5cbfbbb] Completed 200 OK in 60ms (Views: 30.0ms | ActiveRecord: 6.7ms | Allocations: 13891)
+I, [2023-02-13T17:21:46.884827 #2712]  INFO -- : [2f4926ea-a7e8-4acd-8b4b-2835998d87db] Started GET "/assets/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css" for 127.0.0.1 at 2023-02-13 17:21:46 +0530
+F, [2023-02-13T17:21:46.886870 #2712] FATAL -- : [2f4926ea-a7e8-4acd-8b4b-2835998d87db]   
+[2f4926ea-a7e8-4acd-8b4b-2835998d87db] ActionController::RoutingError (No route matches [GET] "/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css"):
+[2f4926ea-a7e8-4acd-8b4b-2835998d87db]   
+I, [2023-02-13T17:21:46.887739 #2712]  INFO -- : [a30b08b4-4b7d-407b-addf-b041cf7d82ae] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:21:46 +0530
+F, [2023-02-13T17:21:46.889162 #2712] FATAL -- : [a30b08b4-4b7d-407b-addf-b041cf7d82ae]   
+[a30b08b4-4b7d-407b-addf-b041cf7d82ae] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[a30b08b4-4b7d-407b-addf-b041cf7d82ae]   
+I, [2023-02-13T17:21:50.090959 #2712]  INFO -- : [2694d43e-7e0c-4cfd-a8f5-4170541c2ba9] Started GET "/movies" for 127.0.0.1 at 2023-02-13 17:21:50 +0530
+I, [2023-02-13T17:21:50.093053 #2712]  INFO -- : [2694d43e-7e0c-4cfd-a8f5-4170541c2ba9] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:21:50.108719 #2712]  INFO -- : [2694d43e-7e0c-4cfd-a8f5-4170541c2ba9]   Rendered movies/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1954)
+I, [2023-02-13T17:21:50.110690 #2712]  INFO -- : [2694d43e-7e0c-4cfd-a8f5-4170541c2ba9]   Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 2732)
+I, [2023-02-13T17:21:50.111202 #2712]  INFO -- : [2694d43e-7e0c-4cfd-a8f5-4170541c2ba9] Completed 200 OK in 18ms (Views: 12.1ms | ActiveRecord: 3.5ms | Allocations: 3380)
+I, [2023-02-13T17:21:50.137924 #2712]  INFO -- : [daf6ef57-186e-47d1-9da9-439ab1fe1974] Started GET "/assets/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css" for 127.0.0.1 at 2023-02-13 17:21:50 +0530
+F, [2023-02-13T17:21:50.139730 #2712] FATAL -- : [daf6ef57-186e-47d1-9da9-439ab1fe1974]   
+[daf6ef57-186e-47d1-9da9-439ab1fe1974] ActionController::RoutingError (No route matches [GET] "/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css"):
+[daf6ef57-186e-47d1-9da9-439ab1fe1974]   
+I, [2023-02-13T17:22:22.443959 #2712]  INFO -- : [030fae50-d2d5-4754-9e3f-f23fa635d1cb] Started GET "/movies/1" for 127.0.0.1 at 2023-02-13 17:22:22 +0530
+I, [2023-02-13T17:22:22.445365 #2712]  INFO -- : [030fae50-d2d5-4754-9e3f-f23fa635d1cb] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:22:22.445622 #2712]  INFO -- : [030fae50-d2d5-4754-9e3f-f23fa635d1cb]   Parameters: {"id"=>"1"}
+I, [2023-02-13T17:22:22.527455 #2712]  INFO -- : [030fae50-d2d5-4754-9e3f-f23fa635d1cb]   Rendered movies/show.html.erb within layouts/application (Duration: 72.0ms | Allocations: 4526)
+I, [2023-02-13T17:22:22.564563 #2712]  INFO -- : [030fae50-d2d5-4754-9e3f-f23fa635d1cb]   Rendered layout layouts/application.html.erb (Duration: 109.1ms | Allocations: 5296)
+I, [2023-02-13T17:22:22.565066 #2712]  INFO -- : [030fae50-d2d5-4754-9e3f-f23fa635d1cb] Completed 200 OK in 119ms (Views: 108.2ms | ActiveRecord: 5.0ms | Allocations: 6570)
+I, [2023-02-13T17:22:22.630356 #2712]  INFO -- : [7cfbfedc-819a-4f3d-b482-a3beedd7cda0] Started GET "/assets/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css" for 127.0.0.1 at 2023-02-13 17:22:22 +0530
+F, [2023-02-13T17:22:22.700897 #2712] FATAL -- : [7cfbfedc-819a-4f3d-b482-a3beedd7cda0]   
+[7cfbfedc-819a-4f3d-b482-a3beedd7cda0] ActionController::RoutingError (No route matches [GET] "/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css"):
+[7cfbfedc-819a-4f3d-b482-a3beedd7cda0]   
+I, [2023-02-13T17:22:27.444189 #2712]  INFO -- : [990018af-285e-4a0d-a0c8-ceae0b00274e] Started GET "/movies" for 127.0.0.1 at 2023-02-13 17:22:27 +0530
+I, [2023-02-13T17:22:27.492967 #2712]  INFO -- : [990018af-285e-4a0d-a0c8-ceae0b00274e] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:22:27.476684 #2712]  INFO -- : [f93bc18d-b516-42d4-9016-8d6c0e1daa5a] Started GET "/assets/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css" for 127.0.0.1 at 2023-02-13 17:22:27 +0530
+F, [2023-02-13T17:22:27.512478 #2712] FATAL -- : [f93bc18d-b516-42d4-9016-8d6c0e1daa5a]   
+[f93bc18d-b516-42d4-9016-8d6c0e1daa5a] ActionController::RoutingError (No route matches [GET] "/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css"):
+[f93bc18d-b516-42d4-9016-8d6c0e1daa5a]   
+I, [2023-02-13T17:22:27.510458 #2712]  INFO -- : [990018af-285e-4a0d-a0c8-ceae0b00274e]   Rendered movies/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 1957)
+I, [2023-02-13T17:22:27.515548 #2712]  INFO -- : [990018af-285e-4a0d-a0c8-ceae0b00274e]   Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 3423)
+I, [2023-02-13T17:22:27.516104 #2712]  INFO -- : [990018af-285e-4a0d-a0c8-ceae0b00274e] Completed 200 OK in 23ms (Views: 18.1ms | ActiveRecord: 1.8ms | Allocations: 4084)
+I, [2023-02-13T17:22:27.550959 #2712]  INFO -- : [2ea480a7-7618-4e8c-ad6c-f7278dd2d643] Started GET "/assets/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css" for 127.0.0.1 at 2023-02-13 17:22:27 +0530
+F, [2023-02-13T17:22:27.554275 #2712] FATAL -- : [2ea480a7-7618-4e8c-ad6c-f7278dd2d643]   
+[2ea480a7-7618-4e8c-ad6c-f7278dd2d643] ActionController::RoutingError (No route matches [GET] "/index-e2e6a7a50556a6cd8a5576003fa82b406e729c12de105a58fc47255744cb7a71.css"):
+[2ea480a7-7618-4e8c-ad6c-f7278dd2d643]   
+W, [2023-02-13T17:27:42.793264 #2728]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2023-02-13T17:30:13.852002 #2728]  INFO -- : [dd2054ab-86fb-4989-87ef-7ed505b0cd47] Started GET "/" for 127.0.0.1 at 2023-02-13 17:30:13 +0530
+I, [2023-02-13T17:30:13.858378 #2728]  INFO -- : [dd2054ab-86fb-4989-87ef-7ed505b0cd47] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:30:13.873807 #2728]  INFO -- : [dd2054ab-86fb-4989-87ef-7ed505b0cd47] Completed 401 Unauthorized in 15ms (Allocations: 1276)
+I, [2023-02-13T17:30:13.915322 #2728]  INFO -- : [38e88689-6fdc-4cf9-ac92-967175052bfc] Started GET "/users/sign_in" for 127.0.0.1 at 2023-02-13 17:30:13 +0530
+I, [2023-02-13T17:30:13.917064 #2728]  INFO -- : [38e88689-6fdc-4cf9-ac92-967175052bfc] Processing by Users::SessionsController#new as HTML
+I, [2023-02-13T17:30:14.040580 #2728]  INFO -- : [38e88689-6fdc-4cf9-ac92-967175052bfc]   Rendered users/sessions/new.html.erb within layouts/application (Duration: 24.6ms | Allocations: 3054)
+I, [2023-02-13T17:30:14.052947 #2728]  INFO -- : [38e88689-6fdc-4cf9-ac92-967175052bfc]   Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 4855)
+I, [2023-02-13T17:30:14.053907 #2728]  INFO -- : [38e88689-6fdc-4cf9-ac92-967175052bfc] Completed 200 OK in 136ms (Views: 87.5ms | ActiveRecord: 4.1ms | Allocations: 13262)
+I, [2023-02-13T17:30:16.064603 #2728]  INFO -- : [0e7dfa07-0fd8-4848-86e0-493c09fb058d] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:30:16 +0530
+F, [2023-02-13T17:30:16.065824 #2728] FATAL -- : [0e7dfa07-0fd8-4848-86e0-493c09fb058d]   
+[0e7dfa07-0fd8-4848-86e0-493c09fb058d] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[0e7dfa07-0fd8-4848-86e0-493c09fb058d]   
+I, [2023-02-13T17:30:24.659505 #2728]  INFO -- : [87137c36-318f-423d-b8a3-87bed7693784] Started POST "/users/sign_in" for 127.0.0.1 at 2023-02-13 17:30:24 +0530
+I, [2023-02-13T17:30:24.661229 #2728]  INFO -- : [87137c36-318f-423d-b8a3-87bed7693784] Processing by Users::SessionsController#create as HTML
+I, [2023-02-13T17:30:24.661471 #2728]  INFO -- : [87137c36-318f-423d-b8a3-87bed7693784]   Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"test@mail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+I, [2023-02-13T17:30:25.076436 #2728]  INFO -- : [87137c36-318f-423d-b8a3-87bed7693784] Redirected to http://127.0.0.1:3008/
+I, [2023-02-13T17:30:25.076838 #2728]  INFO -- : [87137c36-318f-423d-b8a3-87bed7693784] Completed 302 Found in 415ms (ActiveRecord: 0.5ms | Allocations: 3402)
+I, [2023-02-13T17:30:25.099657 #2728]  INFO -- : [a15c0d70-50f1-4075-923b-c60ea63b23ed] Started GET "/" for 127.0.0.1 at 2023-02-13 17:30:25 +0530
+I, [2023-02-13T17:30:25.100893 #2728]  INFO -- : [a15c0d70-50f1-4075-923b-c60ea63b23ed] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:30:25.170916 #2728]  INFO -- : [a15c0d70-50f1-4075-923b-c60ea63b23ed]   Rendered movies/index.html.erb within layouts/application (Duration: 50.7ms | Allocations: 14071)
+I, [2023-02-13T17:30:25.176732 #2728]  INFO -- : [a15c0d70-50f1-4075-923b-c60ea63b23ed]   Rendered layout layouts/application.html.erb (Duration: 56.6ms | Allocations: 15167)
+I, [2023-02-13T17:30:25.177419 #2728]  INFO -- : [a15c0d70-50f1-4075-923b-c60ea63b23ed] Completed 200 OK in 76ms (Views: 63.8ms | ActiveRecord: 6.1ms | Allocations: 17227)
+I, [2023-02-13T17:30:26.377700 #2728]  INFO -- : [f26c0ab4-60ce-44c9-8179-fd2fd6c8a71a] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:30:26 +0530
+F, [2023-02-13T17:30:26.378842 #2728] FATAL -- : [f26c0ab4-60ce-44c9-8179-fd2fd6c8a71a]   
+[f26c0ab4-60ce-44c9-8179-fd2fd6c8a71a] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[f26c0ab4-60ce-44c9-8179-fd2fd6c8a71a]   
+I, [2023-02-13T17:30:26.379599 #2728]  INFO -- : [2f77ff8f-2088-404f-ad50-8005813d3616] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c6726cf26182cdc0cdc28a70e8fec77f79775b11/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:30:26 +0530
+I, [2023-02-13T17:30:26.383582 #2728]  INFO -- : [2f77ff8f-2088-404f-ad50-8005813d3616] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-02-13T17:30:26.386613 #2728]  INFO -- : [2f77ff8f-2088-404f-ad50-8005813d3616]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c6726cf26182cdc0cdc28a70e8fec77f79775b11", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:30:26.393438 #2728]  INFO -- : [2f77ff8f-2088-404f-ad50-8005813d3616] Redirected to http://127.0.0.1:3008/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi4zOTFaIiwicHVyIjoiYmxvYl9rZXkifX0=--f7f0c75cf0f9412065a20035df340e9a1c5ee0fa/FB_IMG_15317454381951734.jpg
+I, [2023-02-13T17:30:26.394253 #2728]  INFO -- : [2f77ff8f-2088-404f-ad50-8005813d3616] Completed 302 Found in 7ms (ActiveRecord: 0.5ms | Allocations: 1512)
+I, [2023-02-13T17:30:26.615049 #2728]  INFO -- : [1d5071d4-78e5-4fb4-9192-d2417309feb6] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ba7e70c7d794df1bc8c6dc54513d14780ecf3153/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-13 17:30:26 +0530
+I, [2023-02-13T17:30:26.884790 #2728]  INFO -- : [49ec70a6-0cf2-45c1-b467-e201e3421940] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi4zOTFaIiwicHVyIjoiYmxvYl9rZXkifX0=--f7f0c75cf0f9412065a20035df340e9a1c5ee0fa/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:30:26 +0530
+I, [2023-02-13T17:30:26.886876 #2728]  INFO -- : [49ec70a6-0cf2-45c1-b467-e201e3421940] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:30:26.872591 #2728]  INFO -- : [1d5071d4-78e5-4fb4-9192-d2417309feb6] Processing by ActiveStorage::Blobs::RedirectController#show as JPEG
+I, [2023-02-13T17:30:26.890350 #2728]  INFO -- : [1d5071d4-78e5-4fb4-9192-d2417309feb6]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--ba7e70c7d794df1bc8c6dc54513d14780ecf3153", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-13T17:30:26.894256 #2728]  INFO -- : [1d5071d4-78e5-4fb4-9192-d2417309feb6] Redirected to http://127.0.0.1:3008/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi44OTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--d5f6ef9ace541ed916070346c064f04cc4d3e8f8/FB_IMG_15316517576724822.jpg
+I, [2023-02-13T17:30:26.894753 #2728]  INFO -- : [1d5071d4-78e5-4fb4-9192-d2417309feb6] Completed 302 Found in 4ms (ActiveRecord: 0.4ms | Allocations: 783)
+I, [2023-02-13T17:30:26.889972 #2728]  INFO -- : [49ec70a6-0cf2-45c1-b467-e201e3421940]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:30:26.914868 #2728]  INFO -- : [49ec70a6-0cf2-45c1-b467-e201e3421940] Completed 200 OK in 18ms (ActiveRecord: 0.0ms | Allocations: 1975)
+I, [2023-02-13T17:30:26.960155 #2728]  INFO -- : [d5f0a133-1454-44ff-8607-8ed5419c5ecb] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi44OTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--d5f6ef9ace541ed916070346c064f04cc4d3e8f8/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-13 17:30:26 +0530
+I, [2023-02-13T17:30:26.964346 #2728]  INFO -- : [d5f0a133-1454-44ff-8607-8ed5419c5ecb] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:30:26.964696 #2728]  INFO -- : [d5f0a133-1454-44ff-8607-8ed5419c5ecb]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-13T17:30:26.972323 #2728]  INFO -- : [d5f0a133-1454-44ff-8607-8ed5419c5ecb] Completed 200 OK in 7ms (ActiveRecord: 0.0ms | Allocations: 495)
+I, [2023-02-13T17:30:42.505453 #2728]  INFO -- : [da3f89da-0852-4ce5-a50c-a0e1896a96e9] Started GET "/movies/new" for 127.0.0.1 at 2023-02-13 17:30:42 +0530
+I, [2023-02-13T17:30:42.513310 #2728]  INFO -- : [da3f89da-0852-4ce5-a50c-a0e1896a96e9] Processing by MoviesController#new as HTML
+I, [2023-02-13T17:30:42.597876 #2728]  INFO -- : [da3f89da-0852-4ce5-a50c-a0e1896a96e9]   Rendered movies/new.html.erb within layouts/application (Duration: 79.7ms | Allocations: 2166)
+I, [2023-02-13T17:30:42.604996 #2728]  INFO -- : [da3f89da-0852-4ce5-a50c-a0e1896a96e9]   Rendered layout layouts/application.html.erb (Duration: 87.0ms | Allocations: 2989)
+I, [2023-02-13T17:30:42.609100 #2728]  INFO -- : [da3f89da-0852-4ce5-a50c-a0e1896a96e9] Completed 200 OK in 92ms (Views: 87.8ms | ActiveRecord: 0.3ms | Allocations: 3919)
+I, [2023-02-13T17:30:42.630508 #2728]  INFO -- : [d8cadbfc-6733-46a7-abee-60ee7c052079] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:30:42 +0530
+F, [2023-02-13T17:30:42.633243 #2728] FATAL -- : [d8cadbfc-6733-46a7-abee-60ee7c052079]   
+[d8cadbfc-6733-46a7-abee-60ee7c052079] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[d8cadbfc-6733-46a7-abee-60ee7c052079]   
+I, [2023-02-13T17:30:59.316912 #2728]  INFO -- : [d9716294-5d37-45a5-8c19-ed7bb2c45901] Started POST "/movies" for 127.0.0.1 at 2023-02-13 17:30:59 +0530
+I, [2023-02-13T17:30:59.318318 #2728]  INFO -- : [d9716294-5d37-45a5-8c19-ed7bb2c45901] Processing by MoviesController#create as HTML
+I, [2023-02-13T17:30:59.318625 #2728]  INFO -- : [d9716294-5d37-45a5-8c19-ed7bb2c45901]   Parameters: {"authenticity_token"=>"[FILTERED]", "movie"=>{"name"=>"Avatar", "release_date"=>"2023-02-13", "image"=>#<ActionDispatch::Http::UploadedFile:0x00000236e9136420 @tempfile=#<Tempfile:C:/Users/ELCOT/AppData/Local/Temp/RackMultipart20230213-2728-nedg5c.JPG>, @original_filename="84.JPG", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"movie[image]\"; filename=\"84.JPG\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Movie"}
+I, [2023-02-13T17:30:59.661070 #2728]  INFO -- : [d9716294-5d37-45a5-8c19-ed7bb2c45901] [36m  Disk Storage (24.2ms) [0m[32mUploaded file to key: ezty670m9rmf9qfo81egohaccf16 (checksum: XKxjj/prXW1mmxxDWCP+KQ==)[0m
+I, [2023-02-13T17:30:59.663034 #2728]  INFO -- : [d9716294-5d37-45a5-8c19-ed7bb2c45901] [ActiveJob] Enqueued ActiveStorage::AnalyzeJob (Job ID: 299464bf-486d-4200-83fb-2073e5ecfbbc) to Async(default) with arguments: #<GlobalID:0x00000236e7f82800 @uri=#<URI::GID gid://movie-review-app/ActiveStorage::Blob/4>>
+I, [2023-02-13T17:30:59.667094 #2728]  INFO -- : [d9716294-5d37-45a5-8c19-ed7bb2c45901] Redirected to http://127.0.0.1:3008/movies/4
+I, [2023-02-13T17:30:59.668824 #2728]  INFO -- : [d9716294-5d37-45a5-8c19-ed7bb2c45901] Completed 302 Found in 350ms (ActiveRecord: 242.8ms | Allocations: 6533)
+I, [2023-02-13T17:30:59.693822 #2728]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [299464bf-486d-4200-83fb-2073e5ecfbbc] Performing ActiveStorage::AnalyzeJob (Job ID: 299464bf-486d-4200-83fb-2073e5ecfbbc) from Async(default) enqueued at 2023-02-13T12:00:59Z with arguments: #<GlobalID:0x00000236e92a1df0 @uri=#<URI::GID gid://movie-review-app/ActiveStorage::Blob/4>>
+I, [2023-02-13T17:30:59.756573 #2728]  INFO -- : [2adfa094-81bb-4ba4-8021-3c21666711bd] Started GET "/movies/4" for 127.0.0.1 at 2023-02-13 17:30:59 +0530
+I, [2023-02-13T17:30:59.760853 #2728]  INFO -- : [2adfa094-81bb-4ba4-8021-3c21666711bd] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:30:59.761390 #2728]  INFO -- : [2adfa094-81bb-4ba4-8021-3c21666711bd]   Parameters: {"id"=>"4"}
+I, [2023-02-13T17:31:05.972610 #2728]  INFO -- : [2adfa094-81bb-4ba4-8021-3c21666711bd]   Rendered movies/show.html.erb within layouts/application (Duration: 5504.4ms | Allocations: 8308)
+I, [2023-02-13T17:31:06.046986 #2728]  INFO -- : [2adfa094-81bb-4ba4-8021-3c21666711bd]   Rendered layout layouts/application.html.erb (Duration: 5578.8ms | Allocations: 10980)
+I, [2023-02-13T17:31:06.047608 #2728]  INFO -- : [2adfa094-81bb-4ba4-8021-3c21666711bd] Completed 200 OK in 6286ms (Views: 5578.3ms | ActiveRecord: 6.8ms | Allocations: 18964)
+I, [2023-02-13T17:31:07.562023 #2728]  INFO -- : [e9a0e563-3831-4e58-acf8-f81f35fbdf40] Started GET "/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c13a456cbd11ee29afb4d79282d5d69bd55d76c1/84.JPG" for 127.0.0.1 at 2023-02-13 17:31:07 +0530
+I, [2023-02-13T17:31:07.565609 #2728]  INFO -- : [e9a0e563-3831-4e58-acf8-f81f35fbdf40] Processing by ActiveStorage::Blobs::RedirectController#show as */*
+I, [2023-02-13T17:31:07.566333 #2728]  INFO -- : [e9a0e563-3831-4e58-acf8-f81f35fbdf40]   Parameters: {"signed_id"=>"eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBDUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--c13a456cbd11ee29afb4d79282d5d69bd55d76c1", "filename"=>"84"}
+I, [2023-02-13T17:31:07.585095 #2728]  INFO -- : [e9a0e563-3831-4e58-acf8-f81f35fbdf40] Redirected to http://127.0.0.1:3008/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaWHAwZVRZM01HMDVjbTFtT1hGbWJ6Z3haV2R2YUdGalkyWXhOZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNjowNy41ODJaIiwicHVyIjoiYmxvYl9rZXkifX0=--c0fbbdb3e0d4a8ece40180deacb56e036bc6e7f5/84.JPG
+I, [2023-02-13T17:31:07.586918 #2728]  INFO -- : [e9a0e563-3831-4e58-acf8-f81f35fbdf40] Completed 302 Found in 18ms (ActiveRecord: 0.4ms | Allocations: 934)
+I, [2023-02-13T17:31:07.563296 #2728]  INFO -- : [0423ccbd-c0a3-469a-a3d7-645307339247] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:31:07 +0530
+F, [2023-02-13T17:31:07.605800 #2728] FATAL -- : [0423ccbd-c0a3-469a-a3d7-645307339247]   
+[0423ccbd-c0a3-469a-a3d7-645307339247] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[0423ccbd-c0a3-469a-a3d7-645307339247]   
+I, [2023-02-13T17:31:07.773798 #2728]  INFO -- : [78b7c625-d267-45cf-be7c-0d3b6fe64891] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaWHAwZVRZM01HMDVjbTFtT1hGbWJ6Z3haV2R2YUdGalkyWXhOZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNjowNy41ODJaIiwicHVyIjoiYmxvYl9rZXkifX0=--c0fbbdb3e0d4a8ece40180deacb56e036bc6e7f5/84.JPG" for 127.0.0.1 at 2023-02-13 17:31:07 +0530
+I, [2023-02-13T17:31:08.094851 #2728]  INFO -- : [78b7c625-d267-45cf-be7c-0d3b6fe64891] Processing by ActiveStorage::DiskController#show as */*
+I, [2023-02-13T17:31:08.097514 #2728]  INFO -- : [78b7c625-d267-45cf-be7c-0d3b6fe64891]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"84"}
+I, [2023-02-13T17:31:08.103794 #2728]  INFO -- : [78b7c625-d267-45cf-be7c-0d3b6fe64891] Completed 200 OK in 4ms (ActiveRecord: 0.0ms | Allocations: 546)
+I, [2023-02-13T17:31:08.114293 #2728]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [299464bf-486d-4200-83fb-2073e5ecfbbc] [36m  Disk Storage (5.9ms) [0m[34mDownloaded file from key: ezty670m9rmf9qfo81egohaccf16[0m
+I, [2023-02-13T17:31:08.943328 #2728]  INFO -- : [ActiveJob] [ActiveStorage::AnalyzeJob] [299464bf-486d-4200-83fb-2073e5ecfbbc] Performed ActiveStorage::AnalyzeJob (Job ID: 299464bf-486d-4200-83fb-2073e5ecfbbc) from Async(default) in 9275.38ms
+I, [2023-02-13T17:31:12.497810 #2728]  INFO -- : [3df2b608-1745-427b-8a75-1fee6bf9040a] Started POST "/movies/4/ratings" for 127.0.0.1 at 2023-02-13 17:31:12 +0530
+I, [2023-02-13T17:31:12.499656 #2728]  INFO -- : [3df2b608-1745-427b-8a75-1fee6bf9040a] Processing by RatingsController#create as JS
+I, [2023-02-13T17:31:12.499922 #2728]  INFO -- : [3df2b608-1745-427b-8a75-1fee6bf9040a]   Parameters: {"authenticity_token"=>"[FILTERED]", "rating"=>{"movie_id"=>"4", "star"=>"4"}, "commit"=>"Add", "movie_id"=>"4"}
+I, [2023-02-13T17:31:12.797898 #2728]  INFO -- : [3df2b608-1745-427b-8a75-1fee6bf9040a]   Rendered ratings/create.js.erb (Duration: 8.1ms | Allocations: 2578)
+I, [2023-02-13T17:31:12.798577 #2728]  INFO -- : [3df2b608-1745-427b-8a75-1fee6bf9040a] Completed 200 OK in 298ms (Views: 48.0ms | ActiveRecord: 223.1ms | Allocations: 6611)
+I, [2023-02-13T17:31:26.870038 #2728]  INFO -- : [ec4ee967-b07e-44f8-9df7-e9f0fa5100b0] Started POST "/movies/4/ratings" for 127.0.0.1 at 2023-02-13 17:31:26 +0530
+I, [2023-02-13T17:31:26.871472 #2728]  INFO -- : [ec4ee967-b07e-44f8-9df7-e9f0fa5100b0] Processing by RatingsController#create as JS
+I, [2023-02-13T17:31:26.871695 #2728]  INFO -- : [ec4ee967-b07e-44f8-9df7-e9f0fa5100b0]   Parameters: {"authenticity_token"=>"[FILTERED]", "rating"=>{"movie_id"=>"4", "star"=>"4"}, "commit"=>"Add", "movie_id"=>"4"}
+I, [2023-02-13T17:31:27.086833 #2728]  INFO -- : [ec4ee967-b07e-44f8-9df7-e9f0fa5100b0]   Rendered ratings/create.js.erb (Duration: 5.5ms | Allocations: 2177)
+I, [2023-02-13T17:31:27.089432 #2728]  INFO -- : [ec4ee967-b07e-44f8-9df7-e9f0fa5100b0] Completed 200 OK in 218ms (Views: 8.3ms | ActiveRecord: 191.8ms | Allocations: 5003)
+I, [2023-02-13T17:31:31.590607 #2728]  INFO -- : [72303116-702c-4cc0-bc4c-0a8830deed43] Started POST "/movies/4/ratings" for 127.0.0.1 at 2023-02-13 17:31:31 +0530
+I, [2023-02-13T17:31:31.591840 #2728]  INFO -- : [72303116-702c-4cc0-bc4c-0a8830deed43] Processing by RatingsController#create as JS
+I, [2023-02-13T17:31:31.592071 #2728]  INFO -- : [72303116-702c-4cc0-bc4c-0a8830deed43]   Parameters: {"authenticity_token"=>"[FILTERED]", "rating"=>{"movie_id"=>"4", "star"=>"3"}, "commit"=>"Add", "movie_id"=>"4"}
+I, [2023-02-13T17:31:31.765115 #2728]  INFO -- : [72303116-702c-4cc0-bc4c-0a8830deed43]   Rendered ratings/create.js.erb (Duration: 8.5ms | Allocations: 2172)
+I, [2023-02-13T17:31:31.765586 #2728]  INFO -- : [72303116-702c-4cc0-bc4c-0a8830deed43] Completed 200 OK in 173ms (Views: 9.2ms | ActiveRecord: 136.5ms | Allocations: 4834)
+I, [2023-02-13T17:31:34.109088 #2728]  INFO -- : [d861e7af-f51e-4b91-9dd4-4dec9cbadffb] Started GET "/movies" for 127.0.0.1 at 2023-02-13 17:31:34 +0530
+I, [2023-02-13T17:31:34.110205 #2728]  INFO -- : [d861e7af-f51e-4b91-9dd4-4dec9cbadffb] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:31:34.136524 #2728]  INFO -- : [d861e7af-f51e-4b91-9dd4-4dec9cbadffb]   Rendered movies/index.html.erb within layouts/application (Duration: 15.9ms | Allocations: 2372)
+I, [2023-02-13T17:31:34.138829 #2728]  INFO -- : [d861e7af-f51e-4b91-9dd4-4dec9cbadffb]   Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 3169)
+I, [2023-02-13T17:31:34.139604 #2728]  INFO -- : [d861e7af-f51e-4b91-9dd4-4dec9cbadffb] Completed 200 OK in 29ms (Views: 19.5ms | ActiveRecord: 2.1ms | Allocations: 3915)
+I, [2023-02-13T17:31:34.208985 #2728]  INFO -- : [7eb388e7-f286-4a06-b56e-56f539055c3b] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:31:34 +0530
+F, [2023-02-13T17:31:34.209904 #2728] FATAL -- : [7eb388e7-f286-4a06-b56e-56f539055c3b]   
+[7eb388e7-f286-4a06-b56e-56f539055c3b] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[7eb388e7-f286-4a06-b56e-56f539055c3b]   
+I, [2023-02-13T17:31:34.307440 #2728]  INFO -- : [6456ec34-1ef5-49a1-9501-74efc0530cf3] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi4zOTFaIiwicHVyIjoiYmxvYl9rZXkifX0=--f7f0c75cf0f9412065a20035df340e9a1c5ee0fa/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:31:34 +0530
+I, [2023-02-13T17:31:34.309231 #2728]  INFO -- : [6456ec34-1ef5-49a1-9501-74efc0530cf3] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:31:34.309554 #2728]  INFO -- : [6456ec34-1ef5-49a1-9501-74efc0530cf3]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:31:34.317693 #2728]  INFO -- : [6456ec34-1ef5-49a1-9501-74efc0530cf3] Completed 304 Not Modified in 8ms (ActiveRecord: 0.0ms | Allocations: 426)
+I, [2023-02-13T17:31:34.334460 #2728]  INFO -- : [dad1656a-1d96-4e53-8df0-0986a9368737] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi44OTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--d5f6ef9ace541ed916070346c064f04cc4d3e8f8/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-13 17:31:34 +0530
+I, [2023-02-13T17:31:34.371031 #2728]  INFO -- : [dad1656a-1d96-4e53-8df0-0986a9368737] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:31:34.371398 #2728]  INFO -- : [dad1656a-1d96-4e53-8df0-0986a9368737]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-13T17:31:34.373867 #2728]  INFO -- : [dad1656a-1d96-4e53-8df0-0986a9368737] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 404)
+I, [2023-02-13T17:31:49.971928 #2728]  INFO -- : [1a92d407-96f9-441d-afb0-d7ce47ac6b28] Started GET "/movies/2" for 127.0.0.1 at 2023-02-13 17:31:49 +0530
+I, [2023-02-13T17:31:49.973298 #2728]  INFO -- : [1a92d407-96f9-441d-afb0-d7ce47ac6b28] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:31:49.973518 #2728]  INFO -- : [1a92d407-96f9-441d-afb0-d7ce47ac6b28]   Parameters: {"id"=>"2"}
+I, [2023-02-13T17:31:49.996202 #2728]  INFO -- : [1a92d407-96f9-441d-afb0-d7ce47ac6b28]   Rendered movies/show.html.erb within layouts/application (Duration: 15.0ms | Allocations: 3185)
+I, [2023-02-13T17:31:49.998169 #2728]  INFO -- : [1a92d407-96f9-441d-afb0-d7ce47ac6b28]   Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 3963)
+I, [2023-02-13T17:31:49.998650 #2728]  INFO -- : [1a92d407-96f9-441d-afb0-d7ce47ac6b28] Completed 200 OK in 25ms (Views: 15.9ms | ActiveRecord: 3.2ms | Allocations: 5315)
+I, [2023-02-13T17:31:54.560613 #2728]  INFO -- : [76961041-782d-494b-99cf-5b7ac9fc86ab] Started GET "/movies" for 127.0.0.1 at 2023-02-13 17:31:54 +0530
+I, [2023-02-13T17:31:54.594860 #2728]  INFO -- : [76961041-782d-494b-99cf-5b7ac9fc86ab] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:31:54.653770 #2728]  INFO -- : [76961041-782d-494b-99cf-5b7ac9fc86ab]   Rendered movies/index.html.erb within layouts/application (Duration: 37.5ms | Allocations: 2246)
+I, [2023-02-13T17:31:54.676515 #2728]  INFO -- : [76961041-782d-494b-99cf-5b7ac9fc86ab]   Rendered layout layouts/application.html.erb (Duration: 60.4ms | Allocations: 3024)
+I, [2023-02-13T17:31:54.677401 #2728]  INFO -- : [76961041-782d-494b-99cf-5b7ac9fc86ab] Completed 200 OK in 82ms (Views: 60.9ms | ActiveRecord: 2.3ms | Allocations: 3774)
+I, [2023-02-13T17:32:08.285729 #2728]  INFO -- : [dc06d473-cac2-4c65-a2a0-64abd5d0aade] Started GET "/movies/4" for 127.0.0.1 at 2023-02-13 17:32:08 +0530
+I, [2023-02-13T17:32:08.287603 #2728]  INFO -- : [dc06d473-cac2-4c65-a2a0-64abd5d0aade] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:32:08.308259 #2728]  INFO -- : [dc06d473-cac2-4c65-a2a0-64abd5d0aade]   Parameters: {"id"=>"4"}
+I, [2023-02-13T17:32:08.344630 #2728]  INFO -- : [dc06d473-cac2-4c65-a2a0-64abd5d0aade]   Rendered movies/show.html.erb within layouts/application (Duration: 12.7ms | Allocations: 3141)
+I, [2023-02-13T17:32:08.346553 #2728]  INFO -- : [dc06d473-cac2-4c65-a2a0-64abd5d0aade]   Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 3920)
+I, [2023-02-13T17:32:08.347030 #2728]  INFO -- : [dc06d473-cac2-4c65-a2a0-64abd5d0aade] Completed 200 OK in 24ms (Views: 14.1ms | ActiveRecord: 2.4ms | Allocations: 5260)
+I, [2023-02-13T17:32:10.740830 #2728]  INFO -- : [5d6de21f-8b2a-4443-a096-c8fc976e14c5] Started GET "/movies/4" for 127.0.0.1 at 2023-02-13 17:32:10 +0530
+I, [2023-02-13T17:32:10.742069 #2728]  INFO -- : [5d6de21f-8b2a-4443-a096-c8fc976e14c5] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:32:10.742293 #2728]  INFO -- : [5d6de21f-8b2a-4443-a096-c8fc976e14c5]   Parameters: {"id"=>"4"}
+I, [2023-02-13T17:32:10.780978 #2728]  INFO -- : [5d6de21f-8b2a-4443-a096-c8fc976e14c5]   Rendered movies/show.html.erb within layouts/application (Duration: 21.0ms | Allocations: 3138)
+I, [2023-02-13T17:32:10.792816 #2728]  INFO -- : [5d6de21f-8b2a-4443-a096-c8fc976e14c5]   Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 3916)
+I, [2023-02-13T17:32:10.793349 #2728]  INFO -- : [5d6de21f-8b2a-4443-a096-c8fc976e14c5] Completed 200 OK in 51ms (Views: 29.8ms | ActiveRecord: 6.0ms | Allocations: 5277)
+I, [2023-02-13T17:32:12.324125 #2728]  INFO -- : [341b8e94-f4e5-4ed4-87e6-135aef4b6fcd] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:32:12 +0530
+F, [2023-02-13T17:32:12.325138 #2728] FATAL -- : [341b8e94-f4e5-4ed4-87e6-135aef4b6fcd]   
+[341b8e94-f4e5-4ed4-87e6-135aef4b6fcd] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[341b8e94-f4e5-4ed4-87e6-135aef4b6fcd]   
+I, [2023-02-13T17:32:12.508959 #2728]  INFO -- : [967a553d-886d-482d-9da7-78003652c26f] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaWHAwZVRZM01HMDVjbTFtT1hGbWJ6Z3haV2R2YUdGalkyWXhOZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNjowNy41ODJaIiwicHVyIjoiYmxvYl9rZXkifX0=--c0fbbdb3e0d4a8ece40180deacb56e036bc6e7f5/84.JPG" for 127.0.0.1 at 2023-02-13 17:32:12 +0530
+I, [2023-02-13T17:32:12.511220 #2728]  INFO -- : [967a553d-886d-482d-9da7-78003652c26f] Processing by ActiveStorage::DiskController#show as */*
+I, [2023-02-13T17:32:12.511510 #2728]  INFO -- : [967a553d-886d-482d-9da7-78003652c26f]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"84"}
+I, [2023-02-13T17:32:12.521904 #2728]  INFO -- : [967a553d-886d-482d-9da7-78003652c26f] Completed 304 Not Modified in 10ms (ActiveRecord: 0.0ms | Allocations: 396)
+I, [2023-02-13T17:32:17.424045 #2728]  INFO -- : [0b7c4927-a5b0-4796-8d4c-25f71182310b] Started GET "/movies" for 127.0.0.1 at 2023-02-13 17:32:17 +0530
+I, [2023-02-13T17:32:17.425190 #2728]  INFO -- : [0b7c4927-a5b0-4796-8d4c-25f71182310b] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:32:17.443782 #2728]  INFO -- : [0b7c4927-a5b0-4796-8d4c-25f71182310b]   Rendered movies/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 2248)
+I, [2023-02-13T17:32:17.445650 #2728]  INFO -- : [0b7c4927-a5b0-4796-8d4c-25f71182310b]   Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 3026)
+I, [2023-02-13T17:32:17.446133 #2728]  INFO -- : [0b7c4927-a5b0-4796-8d4c-25f71182310b] Completed 200 OK in 21ms (Views: 16.6ms | ActiveRecord: 1.7ms | Allocations: 3773)
+I, [2023-02-13T17:32:17.475841 #2728]  INFO -- : [69ce87ef-485e-4701-93c2-d20455d987db] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:32:17 +0530
+F, [2023-02-13T17:32:17.476877 #2728] FATAL -- : [69ce87ef-485e-4701-93c2-d20455d987db]   
+[69ce87ef-485e-4701-93c2-d20455d987db] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[69ce87ef-485e-4701-93c2-d20455d987db]   
+I, [2023-02-13T17:32:17.545491 #2728]  INFO -- : [1131cc41-920d-4b15-bacc-44bc5764eca8] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi44OTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--d5f6ef9ace541ed916070346c064f04cc4d3e8f8/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-13 17:32:17 +0530
+I, [2023-02-13T17:32:17.547750 #2728]  INFO -- : [1131cc41-920d-4b15-bacc-44bc5764eca8] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:32:17.552766 #2728]  INFO -- : [1131cc41-920d-4b15-bacc-44bc5764eca8]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-13T17:32:17.554322 #2728]  INFO -- : [fdce32c2-6d75-4bf7-96a4-c3e5becee485] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi4zOTFaIiwicHVyIjoiYmxvYl9rZXkifX0=--f7f0c75cf0f9412065a20035df340e9a1c5ee0fa/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:32:17 +0530
+I, [2023-02-13T17:32:17.557856 #2728]  INFO -- : [fdce32c2-6d75-4bf7-96a4-c3e5becee485] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:32:17.558371 #2728]  INFO -- : [fdce32c2-6d75-4bf7-96a4-c3e5becee485]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:32:17.558277 #2728]  INFO -- : [1131cc41-920d-4b15-bacc-44bc5764eca8] Completed 304 Not Modified in 3ms (ActiveRecord: 0.0ms | Allocations: 794)
+I, [2023-02-13T17:32:17.590229 #2728]  INFO -- : [fdce32c2-6d75-4bf7-96a4-c3e5becee485] Completed 304 Not Modified in 32ms (ActiveRecord: 0.0ms | Allocations: 722)
+I, [2023-02-13T17:32:20.454433 #2728]  INFO -- : [fad10cdf-8787-4281-ae71-09c1aa03d0fa] Started GET "/movies/4" for 127.0.0.1 at 2023-02-13 17:32:20 +0530
+I, [2023-02-13T17:32:20.475102 #2728]  INFO -- : [fad10cdf-8787-4281-ae71-09c1aa03d0fa] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:32:20.475499 #2728]  INFO -- : [fad10cdf-8787-4281-ae71-09c1aa03d0fa]   Parameters: {"id"=>"4"}
+I, [2023-02-13T17:32:20.613670 #2728]  INFO -- : [fad10cdf-8787-4281-ae71-09c1aa03d0fa]   Rendered movies/show.html.erb within layouts/application (Duration: 68.5ms | Allocations: 3143)
+I, [2023-02-13T17:32:20.620083 #2728]  INFO -- : [fad10cdf-8787-4281-ae71-09c1aa03d0fa]   Rendered layout layouts/application.html.erb (Duration: 74.9ms | Allocations: 3922)
+I, [2023-02-13T17:32:20.620618 #2728]  INFO -- : [fad10cdf-8787-4281-ae71-09c1aa03d0fa] Completed 200 OK in 145ms (Views: 95.2ms | ActiveRecord: 2.1ms | Allocations: 5289)
+I, [2023-02-13T17:32:23.947792 #2728]  INFO -- : [8c833c15-6c60-4fb4-bdd1-73d45a3b6c90] Started GET "/movies" for 127.0.0.1 at 2023-02-13 17:32:23 +0530
+I, [2023-02-13T17:32:23.949214 #2728]  INFO -- : [8c833c15-6c60-4fb4-bdd1-73d45a3b6c90] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:32:24.031839 #2728]  INFO -- : [8c833c15-6c60-4fb4-bdd1-73d45a3b6c90]   Rendered movies/index.html.erb within layouts/application (Duration: 74.2ms | Allocations: 2249)
+I, [2023-02-13T17:32:24.033937 #2728]  INFO -- : [8c833c15-6c60-4fb4-bdd1-73d45a3b6c90]   Rendered layout layouts/application.html.erb (Duration: 76.4ms | Allocations: 3027)
+I, [2023-02-13T17:32:24.040504 #2728]  INFO -- : [8c833c15-6c60-4fb4-bdd1-73d45a3b6c90] Completed 200 OK in 89ms (Views: 71.4ms | ActiveRecord: 10.2ms | Allocations: 3756)
+I, [2023-02-13T17:32:31.968454 #2728]  INFO -- : [c17bb4e6-62ef-4782-aa66-81314019d6d0] Started GET "/movies?movie_name=Avatar&release_date=&commit=show" for 127.0.0.1 at 2023-02-13 17:32:31 +0530
+I, [2023-02-13T17:32:31.972997 #2728]  INFO -- : [c17bb4e6-62ef-4782-aa66-81314019d6d0] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:32:31.976813 #2728]  INFO -- : [c17bb4e6-62ef-4782-aa66-81314019d6d0]   Parameters: {"movie_name"=>"Avatar", "release_date"=>"", "commit"=>"show"}
+I, [2023-02-13T17:32:31.998305 #2728]  INFO -- : [c17bb4e6-62ef-4782-aa66-81314019d6d0]   Rendered movies/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 1692)
+I, [2023-02-13T17:32:32.000653 #2728]  INFO -- : [c17bb4e6-62ef-4782-aa66-81314019d6d0]   Rendered layout layouts/application.html.erb (Duration: 18.1ms | Allocations: 2470)
+I, [2023-02-13T17:32:32.001288 #2728]  INFO -- : [c17bb4e6-62ef-4782-aa66-81314019d6d0] Completed 200 OK in 24ms (Views: 10.9ms | ActiveRecord: 8.5ms | Allocations: 3256)
+I, [2023-02-13T17:32:33.394283 #2728]  INFO -- : [d96dcb6d-c560-4dee-a350-1d4cdfae6b26] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaWHAwZVRZM01HMDVjbTFtT1hGbWJ6Z3haV2R2YUdGalkyWXhOZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNjowNy41ODJaIiwicHVyIjoiYmxvYl9rZXkifX0=--c0fbbdb3e0d4a8ece40180deacb56e036bc6e7f5/84.JPG" for 127.0.0.1 at 2023-02-13 17:32:33 +0530
+I, [2023-02-13T17:32:33.396819 #2728]  INFO -- : [d96dcb6d-c560-4dee-a350-1d4cdfae6b26] Processing by ActiveStorage::DiskController#show as */*
+I, [2023-02-13T17:32:33.398129 #2728]  INFO -- : [d96dcb6d-c560-4dee-a350-1d4cdfae6b26]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"84"}
+I, [2023-02-13T17:32:33.397860 #2728]  INFO -- : [6568521e-7baf-40c7-b3fe-5a8ba6d977ea] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:32:33 +0530
+F, [2023-02-13T17:32:33.401526 #2728] FATAL -- : [6568521e-7baf-40c7-b3fe-5a8ba6d977ea]   
+[6568521e-7baf-40c7-b3fe-5a8ba6d977ea] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[6568521e-7baf-40c7-b3fe-5a8ba6d977ea]   
+I, [2023-02-13T17:32:33.400757 #2728]  INFO -- : [d96dcb6d-c560-4dee-a350-1d4cdfae6b26] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 407)
+I, [2023-02-13T17:32:38.648071 #2728]  INFO -- : [196c78af-9ddb-4638-8843-0521dccf4e9c] Started GET "/movies?movie_name=&release_date=2023-02-13&commit=show" for 127.0.0.1 at 2023-02-13 17:32:38 +0530
+I, [2023-02-13T17:32:38.650188 #2728]  INFO -- : [196c78af-9ddb-4638-8843-0521dccf4e9c] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:32:38.650502 #2728]  INFO -- : [196c78af-9ddb-4638-8843-0521dccf4e9c]   Parameters: {"movie_name"=>"", "release_date"=>"2023-02-13", "commit"=>"show"}
+I, [2023-02-13T17:32:38.679727 #2728]  INFO -- : [196c78af-9ddb-4638-8843-0521dccf4e9c]   Rendered movies/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 2010)
+I, [2023-02-13T17:32:38.682860 #2728]  INFO -- : [196c78af-9ddb-4638-8843-0521dccf4e9c]   Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 2788)
+I, [2023-02-13T17:32:38.683400 #2728]  INFO -- : [196c78af-9ddb-4638-8843-0521dccf4e9c] Completed 200 OK in 33ms (Views: 15.7ms | ActiveRecord: 1.9ms | Allocations: 3606)
+I, [2023-02-13T17:32:40.056400 #2728]  INFO -- : [6e4bdfaf-ee48-4a36-b571-442340e544aa] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:32:40 +0530
+F, [2023-02-13T17:32:40.057694 #2728] FATAL -- : [6e4bdfaf-ee48-4a36-b571-442340e544aa]   
+[6e4bdfaf-ee48-4a36-b571-442340e544aa] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[6e4bdfaf-ee48-4a36-b571-442340e544aa]   
+I, [2023-02-13T17:32:40.065029 #2728]  INFO -- : [c81a87ab-0241-46ad-85d7-8a9c26bb1569] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi4zOTFaIiwicHVyIjoiYmxvYl9rZXkifX0=--f7f0c75cf0f9412065a20035df340e9a1c5ee0fa/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:32:40 +0530
+I, [2023-02-13T17:32:40.069001 #2728]  INFO -- : [c81a87ab-0241-46ad-85d7-8a9c26bb1569] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:32:40.069276 #2728]  INFO -- : [c81a87ab-0241-46ad-85d7-8a9c26bb1569]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:32:40.072675 #2728]  INFO -- : [c81a87ab-0241-46ad-85d7-8a9c26bb1569] Completed 304 Not Modified in 3ms (ActiveRecord: 0.0ms | Allocations: 419)
+I, [2023-02-13T17:32:40.340407 #2728]  INFO -- : [f98e571b-11ba-4b9d-9bed-a30bf8876167] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaWHAwZVRZM01HMDVjbTFtT1hGbWJ6Z3haV2R2YUdGalkyWXhOZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNjowNy41ODJaIiwicHVyIjoiYmxvYl9rZXkifX0=--c0fbbdb3e0d4a8ece40180deacb56e036bc6e7f5/84.JPG" for 127.0.0.1 at 2023-02-13 17:32:40 +0530
+I, [2023-02-13T17:32:40.343850 #2728]  INFO -- : [f98e571b-11ba-4b9d-9bed-a30bf8876167] Processing by ActiveStorage::DiskController#show as */*
+I, [2023-02-13T17:32:40.344938 #2728]  INFO -- : [f98e571b-11ba-4b9d-9bed-a30bf8876167]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"84"}
+I, [2023-02-13T17:32:40.347269 #2728]  INFO -- : [f98e571b-11ba-4b9d-9bed-a30bf8876167] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 421)
+I, [2023-02-13T17:32:45.286241 #2728]  INFO -- : [7bdd9355-b786-409a-91c4-1919a2969fc3] Started GET "/movies?movie_name=&release_date=2023-02-12&commit=show" for 127.0.0.1 at 2023-02-13 17:32:45 +0530
+I, [2023-02-13T17:32:45.287551 #2728]  INFO -- : [7bdd9355-b786-409a-91c4-1919a2969fc3] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:32:45.287796 #2728]  INFO -- : [7bdd9355-b786-409a-91c4-1919a2969fc3]   Parameters: {"movie_name"=>"", "release_date"=>"2023-02-12", "commit"=>"show"}
+I, [2023-02-13T17:32:45.307083 #2728]  INFO -- : [7bdd9355-b786-409a-91c4-1919a2969fc3]   Rendered movies/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 1594)
+I, [2023-02-13T17:32:45.315960 #2728]  INFO -- : [7bdd9355-b786-409a-91c4-1919a2969fc3]   Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 2372)
+I, [2023-02-13T17:32:45.316870 #2728]  INFO -- : [7bdd9355-b786-409a-91c4-1919a2969fc3] Completed 200 OK in 29ms (Views: 23.9ms | ActiveRecord: 1.5ms | Allocations: 3147)
+I, [2023-02-13T17:32:46.731622 #2728]  INFO -- : [cc3b8e84-24e1-4500-a4cf-45a993179324] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi44OTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--d5f6ef9ace541ed916070346c064f04cc4d3e8f8/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-13 17:32:46 +0530
+I, [2023-02-13T17:32:46.734071 #2728]  INFO -- : [cc3b8e84-24e1-4500-a4cf-45a993179324] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:32:46.734336 #2728]  INFO -- : [cc3b8e84-24e1-4500-a4cf-45a993179324]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-13T17:32:46.736733 #2728]  INFO -- : [cc3b8e84-24e1-4500-a4cf-45a993179324] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 410)
+I, [2023-02-13T17:32:46.732443 #2728]  INFO -- : [cfc9681d-c232-4ff9-80d3-3349c1ec461e] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:32:46 +0530
+F, [2023-02-13T17:32:46.739573 #2728] FATAL -- : [cfc9681d-c232-4ff9-80d3-3349c1ec461e]   
+[cfc9681d-c232-4ff9-80d3-3349c1ec461e] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[cfc9681d-c232-4ff9-80d3-3349c1ec461e]   
+I, [2023-02-13T17:32:51.089475 #2728]  INFO -- : [d005913e-ee99-4d6b-afbc-93fe782ada7f] Started GET "/movies?movie_name=&release_date=2023-02-13&commit=show" for 127.0.0.1 at 2023-02-13 17:32:51 +0530
+I, [2023-02-13T17:32:51.090802 #2728]  INFO -- : [d005913e-ee99-4d6b-afbc-93fe782ada7f] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:32:51.091024 #2728]  INFO -- : [d005913e-ee99-4d6b-afbc-93fe782ada7f]   Parameters: {"movie_name"=>"", "release_date"=>"2023-02-13", "commit"=>"show"}
+I, [2023-02-13T17:32:51.110353 #2728]  INFO -- : [d005913e-ee99-4d6b-afbc-93fe782ada7f]   Rendered movies/index.html.erb within layouts/application (Duration: 15.5ms | Allocations: 1970)
+I, [2023-02-13T17:32:51.114734 #2728]  INFO -- : [d005913e-ee99-4d6b-afbc-93fe782ada7f]   Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 2748)
+I, [2023-02-13T17:32:51.115265 #2728]  INFO -- : [d005913e-ee99-4d6b-afbc-93fe782ada7f] Completed 200 OK in 24ms (Views: 19.5ms | ActiveRecord: 2.0ms | Allocations: 3544)
+I, [2023-02-13T17:32:52.593900 #2728]  INFO -- : [f624e240-1350-4343-97a8-43dd773dcf3c] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:32:52 +0530
+F, [2023-02-13T17:32:52.595017 #2728] FATAL -- : [f624e240-1350-4343-97a8-43dd773dcf3c]   
+[f624e240-1350-4343-97a8-43dd773dcf3c] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[f624e240-1350-4343-97a8-43dd773dcf3c]   
+I, [2023-02-13T17:32:52.595842 #2728]  INFO -- : [19a3f949-dbc5-4c19-a8f6-94f1e65c1435] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi4zOTFaIiwicHVyIjoiYmxvYl9rZXkifX0=--f7f0c75cf0f9412065a20035df340e9a1c5ee0fa/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:32:52 +0530
+I, [2023-02-13T17:32:52.605316 #2728]  INFO -- : [19a3f949-dbc5-4c19-a8f6-94f1e65c1435] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:32:52.605570 #2728]  INFO -- : [19a3f949-dbc5-4c19-a8f6-94f1e65c1435]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:32:52.607757 #2728]  INFO -- : [19a3f949-dbc5-4c19-a8f6-94f1e65c1435] Completed 304 Not Modified in 2ms (ActiveRecord: 0.0ms | Allocations: 413)
+I, [2023-02-13T17:32:52.911013 #2728]  INFO -- : [f8b28aec-6b81-481c-aee0-8d9da0f2aea9] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaWHAwZVRZM01HMDVjbTFtT1hGbWJ6Z3haV2R2YUdGalkyWXhOZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNjowNy41ODJaIiwicHVyIjoiYmxvYl9rZXkifX0=--c0fbbdb3e0d4a8ece40180deacb56e036bc6e7f5/84.JPG" for 127.0.0.1 at 2023-02-13 17:32:52 +0530
+I, [2023-02-13T17:32:52.912635 #2728]  INFO -- : [f8b28aec-6b81-481c-aee0-8d9da0f2aea9] Processing by ActiveStorage::DiskController#show as */*
+I, [2023-02-13T17:32:52.912889 #2728]  INFO -- : [f8b28aec-6b81-481c-aee0-8d9da0f2aea9]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"84"}
+I, [2023-02-13T17:32:52.918348 #2728]  INFO -- : [f8b28aec-6b81-481c-aee0-8d9da0f2aea9] Completed 304 Not Modified in 5ms (ActiveRecord: 0.0ms | Allocations: 417)
+I, [2023-02-13T17:32:56.542169 #2728]  INFO -- : [5d952e68-e026-456a-ba8b-f2ca59e278fb] Started GET "/movies?movie_name=&release_date=&commit=show" for 127.0.0.1 at 2023-02-13 17:32:56 +0530
+I, [2023-02-13T17:32:56.544331 #2728]  INFO -- : [5d952e68-e026-456a-ba8b-f2ca59e278fb] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:32:56.544592 #2728]  INFO -- : [5d952e68-e026-456a-ba8b-f2ca59e278fb]   Parameters: {"movie_name"=>"", "release_date"=>"", "commit"=>"show"}
+I, [2023-02-13T17:32:56.564992 #2728]  INFO -- : [5d952e68-e026-456a-ba8b-f2ca59e278fb]   Rendered movies/index.html.erb within layouts/application (Duration: 17.3ms | Allocations: 2258)
+I, [2023-02-13T17:32:56.576642 #2728]  INFO -- : [5d952e68-e026-456a-ba8b-f2ca59e278fb]   Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 3036)
+I, [2023-02-13T17:32:56.577175 #2728]  INFO -- : [5d952e68-e026-456a-ba8b-f2ca59e278fb] Completed 200 OK in 32ms (Views: 27.5ms | ActiveRecord: 2.5ms | Allocations: 3774)
+I, [2023-02-13T17:32:57.940188 #2728]  INFO -- : [38e38602-5234-490c-9a73-af8b925bc087] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNekIyTW1odE5ESmxaSGRrTUd0MmJXUnRlR2Q0YTNVd2NYSnNZZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE56UTFORE00TVRrMU1UY3pOQzVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOelExTkRNNE1UazFNVGN6TkM1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi4zOTFaIiwicHVyIjoiYmxvYl9rZXkifX0=--f7f0c75cf0f9412065a20035df340e9a1c5ee0fa/FB_IMG_15317454381951734.jpg" for 127.0.0.1 at 2023-02-13 17:32:57 +0530
+I, [2023-02-13T17:32:57.941963 #2728]  INFO -- : [38e38602-5234-490c-9a73-af8b925bc087] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:32:57.942297 #2728]  INFO -- : [38e38602-5234-490c-9a73-af8b925bc087]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15317454381951734"}
+I, [2023-02-13T17:32:57.938996 #2728]  INFO -- : [2570e5ef-11ea-493b-a147-b6bba79e804d] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:32:57 +0530
+F, [2023-02-13T17:32:57.944317 #2728] FATAL -- : [2570e5ef-11ea-493b-a147-b6bba79e804d]   
+[2570e5ef-11ea-493b-a147-b6bba79e804d] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[2570e5ef-11ea-493b-a147-b6bba79e804d]   
+I, [2023-02-13T17:32:57.945377 #2728]  INFO -- : [38e38602-5234-490c-9a73-af8b925bc087] Completed 304 Not Modified in 3ms (ActiveRecord: 0.0ms | Allocations: 640)
+I, [2023-02-13T17:32:58.222089 #2728]  INFO -- : [59ade69b-3bde-4b43-83bc-b4ad7b113771] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhaWHAwZVRZM01HMDVjbTFtT1hGbWJ6Z3haV2R2YUdGalkyWXhOZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpTjJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWpnMExrcFFSeUk3SUdacGJHVnVZVzFsS2oxVlZFWXRPQ2NuT0RRdVNsQkhCanNHVkRvUlkyOXVkR1Z1ZEY5MGVYQmxTU0lQYVcxaFoyVXZhbkJsWndZN0JsUTZFWE5sY25acFkyVmZibUZ0WlRvS2JHOWpZV3c9IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNjowNy41ODJaIiwicHVyIjoiYmxvYl9rZXkifX0=--c0fbbdb3e0d4a8ece40180deacb56e036bc6e7f5/84.JPG" for 127.0.0.1 at 2023-02-13 17:32:58 +0530
+I, [2023-02-13T17:32:58.225001 #2728]  INFO -- : [59ade69b-3bde-4b43-83bc-b4ad7b113771] Processing by ActiveStorage::DiskController#show as */*
+I, [2023-02-13T17:32:58.225277 #2728]  INFO -- : [59ade69b-3bde-4b43-83bc-b4ad7b113771]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"84"}
+I, [2023-02-13T17:32:58.223037 #2728]  INFO -- : [24bade79-b6fe-42c8-940e-26eb9b4c2435] Started GET "/rails/active_storage/disk/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDVG9JYTJWNVNTSWhNak5qYVRsa2FtMXdOVEExTTNwMmJXdGpjVzg0ZWpJMWFuSmhlZ1k2QmtWVU9oQmthWE53YjNOcGRHbHZia2tpWTJsdWJHbHVaVHNnWm1sc1pXNWhiV1U5SWtaQ1gwbE5SMTh4TlRNeE5qVXhOelUzTmpjeU5EZ3lNaTVxY0djaU95Qm1hV3hsYm1GdFpTbzlWVlJHTFRnbkowWkNYMGxOUjE4eE5UTXhOalV4TnpVM05qY3lORGd5TWk1cWNHY0dPd1pVT2hGamIyNTBaVzUwWDNSNWNHVkpJZzlwYldGblpTOXFjR1ZuQmpzR1ZEb1JjMlZ5ZG1salpWOXVZVzFsT2dwc2IyTmhiQT09IiwiZXhwIjoiMjAyMy0wMi0xM1QxMjowNToyNi44OTNaIiwicHVyIjoiYmxvYl9rZXkifX0=--d5f6ef9ace541ed916070346c064f04cc4d3e8f8/FB_IMG_15316517576724822.jpg" for 127.0.0.1 at 2023-02-13 17:32:58 +0530
+I, [2023-02-13T17:32:58.229888 #2728]  INFO -- : [24bade79-b6fe-42c8-940e-26eb9b4c2435] Processing by ActiveStorage::DiskController#show as JPEG
+I, [2023-02-13T17:32:58.230178 #2728]  INFO -- : [24bade79-b6fe-42c8-940e-26eb9b4c2435]   Parameters: {"encoded_key"=>"[FILTERED]", "filename"=>"FB_IMG_15316517576724822"}
+I, [2023-02-13T17:32:58.254582 #2728]  INFO -- : [24bade79-b6fe-42c8-940e-26eb9b4c2435] Completed 304 Not Modified in 24ms (ActiveRecord: 0.0ms | Allocations: 414)
+I, [2023-02-13T17:32:58.228263 #2728]  INFO -- : [59ade69b-3bde-4b43-83bc-b4ad7b113771] Completed 304 Not Modified in 3ms (ActiveRecord: 0.0ms | Allocations: 413)
+I, [2023-02-13T17:35:13.488858 #2728]  INFO -- : [eea67b57-a7ce-4642-8bf4-e6bed5850f7c] Started GET "/users/edit" for 127.0.0.1 at 2023-02-13 17:35:13 +0530
+I, [2023-02-13T17:35:13.490655 #2728]  INFO -- : [eea67b57-a7ce-4642-8bf4-e6bed5850f7c] Processing by Users::RegistrationsController#edit as HTML
+I, [2023-02-13T17:35:13.540478 #2728]  INFO -- : [eea67b57-a7ce-4642-8bf4-e6bed5850f7c]   Rendered users/registrations/edit.html.erb within layouts/application (Duration: 28.6ms | Allocations: 2926)
+I, [2023-02-13T17:35:13.544180 #2728]  INFO -- : [eea67b57-a7ce-4642-8bf4-e6bed5850f7c]   Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 3866)
+I, [2023-02-13T17:35:13.544818 #2728]  INFO -- : [eea67b57-a7ce-4642-8bf4-e6bed5850f7c] Completed 200 OK in 54ms (Views: 48.6ms | ActiveRecord: 1.7ms | Allocations: 5233)
+I, [2023-02-13T17:35:13.570505 #2728]  INFO -- : [465b4df5-3791-4b91-a2ab-bc14432f98fa] Started GET "/packs/js/application-134eac7e8c189496bda1.js" for 127.0.0.1 at 2023-02-13 17:35:13 +0530
+F, [2023-02-13T17:35:13.571494 #2728] FATAL -- : [465b4df5-3791-4b91-a2ab-bc14432f98fa]   
+[465b4df5-3791-4b91-a2ab-bc14432f98fa] ActionController::RoutingError (No route matches [GET] "/packs/js/application-134eac7e8c189496bda1.js"):
+[465b4df5-3791-4b91-a2ab-bc14432f98fa]   
+I, [2023-02-13T17:35:15.656659 #2728]  INFO -- : [b21f46fa-213e-496c-8921-cb706f855227] Started GET "/movies?movie_name=&release_date=&commit=show" for 127.0.0.1 at 2023-02-13 17:35:15 +0530
+I, [2023-02-13T17:35:15.658153 #2728]  INFO -- : [b21f46fa-213e-496c-8921-cb706f855227] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:35:15.658402 #2728]  INFO -- : [b21f46fa-213e-496c-8921-cb706f855227]   Parameters: {"movie_name"=>"", "release_date"=>"", "commit"=>"show"}
+I, [2023-02-13T17:35:15.677070 #2728]  INFO -- : [b21f46fa-213e-496c-8921-cb706f855227]   Rendered movies/index.html.erb within layouts/application (Duration: 10.1ms | Allocations: 2340)
+I, [2023-02-13T17:35:15.687745 #2728]  INFO -- : [b21f46fa-213e-496c-8921-cb706f855227]   Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 3118)
+I, [2023-02-13T17:35:15.688436 #2728]  INFO -- : [b21f46fa-213e-496c-8921-cb706f855227] Completed 200 OK in 30ms (Views: 19.9ms | ActiveRecord: 2.1ms | Allocations: 4038)
+I, [2023-02-13T17:36:41.347088 #2728]  INFO -- : [398703de-e9bd-4593-9813-e2bb325ee376] Started GET "/movies/1" for 127.0.0.1 at 2023-02-13 17:36:41 +0530
+I, [2023-02-13T17:36:41.348735 #2728]  INFO -- : [398703de-e9bd-4593-9813-e2bb325ee376] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:36:41.353387 #2728]  INFO -- : [398703de-e9bd-4593-9813-e2bb325ee376]   Parameters: {"id"=>"1"}
+I, [2023-02-13T17:36:41.537475 #2728]  INFO -- : [398703de-e9bd-4593-9813-e2bb325ee376]   Rendered movies/show.html.erb within layouts/application (Duration: 157.2ms | Allocations: 4567)
+I, [2023-02-13T17:36:42.223663 #2728]  INFO -- : [398703de-e9bd-4593-9813-e2bb325ee376]   Rendered layout layouts/application.html.erb (Duration: 843.4ms | Allocations: 5337)
+I, [2023-02-13T17:36:42.246261 #2728]  INFO -- : [398703de-e9bd-4593-9813-e2bb325ee376] Completed 200 OK in 892ms (Views: 878.5ms | ActiveRecord: 3.7ms | Allocations: 6719)
+I, [2023-02-13T17:36:59.188611 #2728]  INFO -- : [bf99c938-3fcf-498b-b096-f539ff79641d] Started GET "/movies" for 127.0.0.1 at 2023-02-13 17:36:59 +0530
+I, [2023-02-13T17:36:59.189784 #2728]  INFO -- : [bf99c938-3fcf-498b-b096-f539ff79641d] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:36:59.235147 #2728]  INFO -- : [bf99c938-3fcf-498b-b096-f539ff79641d]   Rendered movies/index.html.erb within layouts/application (Duration: 32.0ms | Allocations: 2246)
+I, [2023-02-13T17:36:59.245916 #2728]  INFO -- : [bf99c938-3fcf-498b-b096-f539ff79641d]   Rendered layout layouts/application.html.erb (Duration: 42.8ms | Allocations: 3024)
+I, [2023-02-13T17:36:59.249508 #2728]  INFO -- : [bf99c938-3fcf-498b-b096-f539ff79641d] Completed 200 OK in 59ms (Views: 45.0ms | ActiveRecord: 2.1ms | Allocations: 3762)
+I, [2023-02-13T17:37:28.618398 #2728]  INFO -- : [a5228d2e-958d-41e5-ba42-b5096a355a67] Started GET "/movies/1" for 127.0.0.1 at 2023-02-13 17:37:28 +0530
+I, [2023-02-13T17:37:28.621959 #2728]  INFO -- : [a5228d2e-958d-41e5-ba42-b5096a355a67] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:37:28.622463 #2728]  INFO -- : [a5228d2e-958d-41e5-ba42-b5096a355a67]   Parameters: {"id"=>"1"}
+I, [2023-02-13T17:37:28.656991 #2728]  INFO -- : [a5228d2e-958d-41e5-ba42-b5096a355a67]   Rendered movies/show.html.erb within layouts/application (Duration: 23.3ms | Allocations: 3701)
+I, [2023-02-13T17:37:28.664668 #2728]  INFO -- : [a5228d2e-958d-41e5-ba42-b5096a355a67]   Rendered layout layouts/application.html.erb (Duration: 31.0ms | Allocations: 4471)
+I, [2023-02-13T17:37:28.676118 #2728]  INFO -- : [a5228d2e-958d-41e5-ba42-b5096a355a67] Completed 200 OK in 53ms (Views: 39.3ms | ActiveRecord: 4.9ms | Allocations: 5841)
+I, [2023-02-13T17:37:34.333093 #2728]  INFO -- : [717b91d5-7b19-405d-9e88-ecaf7cbfb45e] Started GET "/movies/1/edit" for 127.0.0.1 at 2023-02-13 17:37:34 +0530
+I, [2023-02-13T17:37:34.341754 #2728]  INFO -- : [717b91d5-7b19-405d-9e88-ecaf7cbfb45e] Processing by MoviesController#edit as HTML
+I, [2023-02-13T17:37:34.342113 #2728]  INFO -- : [717b91d5-7b19-405d-9e88-ecaf7cbfb45e]   Parameters: {"id"=>"1"}
+I, [2023-02-13T17:37:34.385246 #2728]  INFO -- : [717b91d5-7b19-405d-9e88-ecaf7cbfb45e]   Rendered movies/edit.html.erb within layouts/application (Duration: 23.0ms | Allocations: 1510)
+I, [2023-02-13T17:37:34.388521 #2728]  INFO -- : [717b91d5-7b19-405d-9e88-ecaf7cbfb45e]   Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 2290)
+I, [2023-02-13T17:37:34.403717 #2728]  INFO -- : [717b91d5-7b19-405d-9e88-ecaf7cbfb45e] Completed 200 OK in 61ms (Views: 27.4ms | ActiveRecord: 0.8ms | Allocations: 3100)
+I, [2023-02-13T17:37:35.961732 #2728]  INFO -- : [104be950-4fb2-4348-8d66-e3fac3c2982d] Started GET "/movies/1" for 127.0.0.1 at 2023-02-13 17:37:35 +0530
+I, [2023-02-13T17:37:35.963232 #2728]  INFO -- : [104be950-4fb2-4348-8d66-e3fac3c2982d] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:37:35.963727 #2728]  INFO -- : [104be950-4fb2-4348-8d66-e3fac3c2982d]   Parameters: {"id"=>"1"}
+I, [2023-02-13T17:37:36.004368 #2728]  INFO -- : [104be950-4fb2-4348-8d66-e3fac3c2982d]   Rendered movies/show.html.erb within layouts/application (Duration: 27.3ms | Allocations: 3698)
+I, [2023-02-13T17:37:36.011397 #2728]  INFO -- : [104be950-4fb2-4348-8d66-e3fac3c2982d]   Rendered layout layouts/application.html.erb (Duration: 34.4ms | Allocations: 4467)
+I, [2023-02-13T17:37:36.018913 #2728]  INFO -- : [104be950-4fb2-4348-8d66-e3fac3c2982d] Completed 200 OK in 55ms (Views: 41.2ms | ActiveRecord: 4.5ms | Allocations: 5805)
+I, [2023-02-13T17:37:45.169888 #2728]  INFO -- : [ba92f1b3-2299-457c-8d9b-e349f2fbf803] Started GET "/movies" for 127.0.0.1 at 2023-02-13 17:37:45 +0530
+I, [2023-02-13T17:37:45.172114 #2728]  INFO -- : [ba92f1b3-2299-457c-8d9b-e349f2fbf803] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:37:45.219360 #2728]  INFO -- : [ba92f1b3-2299-457c-8d9b-e349f2fbf803]   Rendered movies/index.html.erb within layouts/application (Duration: 42.4ms | Allocations: 2246)
+I, [2023-02-13T17:37:45.224138 #2728]  INFO -- : [ba92f1b3-2299-457c-8d9b-e349f2fbf803]   Rendered layout layouts/application.html.erb (Duration: 47.2ms | Allocations: 3024)
+I, [2023-02-13T17:37:45.224791 #2728]  INFO -- : [ba92f1b3-2299-457c-8d9b-e349f2fbf803] Completed 200 OK in 52ms (Views: 32.9ms | ActiveRecord: 15.8ms | Allocations: 3768)
+I, [2023-02-13T17:39:58.332158 #2728]  INFO -- : [d565c795-2c96-4eae-9620-924603eac1f8] Started GET "/movies/1" for 127.0.0.1 at 2023-02-13 17:39:58 +0530
+I, [2023-02-13T17:39:58.333778 #2728]  INFO -- : [d565c795-2c96-4eae-9620-924603eac1f8] Processing by MoviesController#show as HTML
+I, [2023-02-13T17:39:58.333986 #2728]  INFO -- : [d565c795-2c96-4eae-9620-924603eac1f8]   Parameters: {"id"=>"1"}
+I, [2023-02-13T17:39:58.361528 #2728]  INFO -- : [d565c795-2c96-4eae-9620-924603eac1f8]   Rendered movies/show.html.erb within layouts/application (Duration: 18.1ms | Allocations: 3699)
+I, [2023-02-13T17:39:58.363526 #2728]  INFO -- : [d565c795-2c96-4eae-9620-924603eac1f8]   Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 4470)
+I, [2023-02-13T17:39:58.364021 #2728]  INFO -- : [d565c795-2c96-4eae-9620-924603eac1f8] Completed 200 OK in 30ms (Views: 19.5ms | ActiveRecord: 2.6ms | Allocations: 5805)
+I, [2023-02-13T17:40:03.540355 #2728]  INFO -- : [f7af7936-a010-4ebe-9ba2-0416cc4481a4] Started POST "/movies/1/ratings" for 127.0.0.1 at 2023-02-13 17:40:03 +0530
+I, [2023-02-13T17:40:03.545125 #2728]  INFO -- : [f7af7936-a010-4ebe-9ba2-0416cc4481a4] Processing by RatingsController#create as JS
+I, [2023-02-13T17:40:03.545396 #2728]  INFO -- : [f7af7936-a010-4ebe-9ba2-0416cc4481a4]   Parameters: {"authenticity_token"=>"[FILTERED]", "rating"=>{"movie_id"=>"1", "star"=>"3"}, "commit"=>"Add", "movie_id"=>"1"}
+I, [2023-02-13T17:40:03.712323 #2728]  INFO -- : [f7af7936-a010-4ebe-9ba2-0416cc4481a4]   Rendered ratings/create.js.erb (Duration: 9.5ms | Allocations: 2172)
+I, [2023-02-13T17:40:03.712861 #2728]  INFO -- : [f7af7936-a010-4ebe-9ba2-0416cc4481a4] Completed 200 OK in 167ms (Views: 10.5ms | ActiveRecord: 139.8ms | Allocations: 4917)
+I, [2023-02-13T17:40:18.487765 #2728]  INFO -- : [3598cf61-8f53-457b-b1bd-d2383d76ace0] Started GET "/movies" for 127.0.0.1 at 2023-02-13 17:40:18 +0530
+I, [2023-02-13T17:40:18.489328 #2728]  INFO -- : [3598cf61-8f53-457b-b1bd-d2383d76ace0] Processing by MoviesController#index as HTML
+I, [2023-02-13T17:40:18.573698 #2728]  INFO -- : [3598cf61-8f53-457b-b1bd-d2383d76ace0]   Rendered movies/index.html.erb within layouts/application (Duration: 80.0ms | Allocations: 2249)
+I, [2023-02-13T17:40:18.589588 #2728]  INFO -- : [3598cf61-8f53-457b-b1bd-d2383d76ace0]   Rendered layout layouts/application.html.erb (Duration: 95.9ms | Allocations: 3027)
+I, [2023-02-13T17:40:18.590423 #2728]  INFO -- : [3598cf61-8f53-457b-b1bd-d2383d76ace0] Completed 200 OK in 101ms (Views: 95.3ms | ActiveRecord: 2.2ms | Allocations: 3768)

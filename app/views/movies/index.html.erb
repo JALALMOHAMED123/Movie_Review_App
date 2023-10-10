@@ -1,0 +1,48 @@
+<%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track': 'reload' %>
+<div style="margin-left: 600px;">
+  <%= render 'filter_form' %>
+</div>
+<h1>Movies</h1>
+
+<div id="movies">
+  <div class="row" >
+  <% @movies.each do |movie| %>
+      <div class="col-md-3">
+        <div class="card">
+          <% if movie.image.attached? %>
+            <div class="card-img-top"><%= image_tag(movie.image)%></div>
+          <% end %>
+          <div class="card-body">
+            <h4 class="card-title">
+              <%= movie.name %>
+            </h4>
+
+            <p>
+              Release date:
+              <%= movie.release_date.strftime('%d/%m/%Y') %>
+            </p>
+            <p>
+              <% rate=(movie.rating_average || 0.0).floor(1) %>
+              <% (5).times do %>
+                <% if rate>=1 %>
+                  <i class="bi bi-star-fill" style="font-size: 20px; color: rgb(255, 210, 48);"></i>
+                  <% rate=rate-1 %>
+                <% elsif rate>=0.5 && rate<=0.9 %>
+                  <i class="bi bi-star-half" style="font-size: 20px; color: rgb(255, 210, 48);"></i>
+                  <% rate=rate-1 %>
+                <% else %>
+                  <i class="bi bi-star" style="font-size: 20px; color: rgb(255, 210, 48);"></i>
+                <% end %>
+              <% end %>
+              <%= (movie.rating_average || 0.0).floor(1) %>
+            </p>
+            <%= link_to "", movie, class: "stretched-link" %>
+          </div>
+        </div>
+      </div>
+  <% end %>
+  </div>
+</div>
+
+<%= link_to "New movie", new_movie_path, class: 'btn btn-primary' %>
+<br><br>

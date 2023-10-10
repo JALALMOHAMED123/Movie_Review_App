@@ -1,0 +1,10 @@
+<h5><b>Ratings:</b></h5>
+<% star_size=30 %>
+<% ratings.each_pair do |star, count| %>
+  <%= count %> times
+  <% star.times do %>
+    <i class="bi bi-star-fill" style="font-size:<%=star_size%>px; color: rgb(255, 210, 48);"></i>
+  <% end %>
+  <% star_size=star_size-2 %>
+  <br>
+<% end %>

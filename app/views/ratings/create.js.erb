@@ -1,0 +1,3 @@
+$("#ratings_list").html("<%= j render(partial: 'ratings/rating', locals: {ratings: @ratings}) %>");
+$("#rating_form").html("<%= j render(partial: 'ratings/form', locals: {rating: @movie.ratings.new}) %>");
+$("#rating_average").html("<%= j render(partial: 'movies/movie', locals: {movie: @movie}) %>");
